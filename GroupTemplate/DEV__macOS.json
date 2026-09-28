@@ -1,0 +1,7 @@
+{
+  "PartitionKey": "GroupTemplate",
+  "RowKey": "b9413b7f-2240-45c9-838a-dfa61bd15f23",
+  "JSON": "{\"displayName\":\"DEV - macOS\",\"description\":\"Dynamic device group for macOS devices\",\"groupType\":\"dynamic\",\"membershipRules\":\"(device.deviceOSType -eq \\\"MacMDM\\\") or (device.deviceOSType -eq \\\"MacOS\\\")\",\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"b9413b7f-2240-45c9-838a-dfa61bd15f23\"}",
+  "SHA": "b7129941f5a8b039011fc6a05921aedee5fc3ada",
+  "Source": "RockfieldIT/B365G-CA_Groups"
+}
