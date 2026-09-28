@@ -151,8 +151,8 @@
             "allowPartnerToCollectIosPersonalCertificateMetadata": false,
             "ConnectMac": true,
             "macDeviceBlockedOnMissingPartnerData": false,
-            "ConnectWindows": false,
-            "windowsMobileApplicationManagementEnabled": true,
+            "ConnectWindows": true,
+            "windowsMobileApplicationManagementEnabled": false,
             "windowsDeviceBlockedOnMissingPartnerData": false,
             "BlockunsupportedOS": false,
             "AllowMEMEnforceCompliance": false
@@ -176,10 +176,10 @@
             "enableGenericWebhook": false,
             "webhookUrl": "",
             "domainSquattingEnabled": true,
-            "companyName": "",
+            "companyName": "Rockfield IT Services",
             "productName": "",
-            "supportEmail": "",
-            "supportUrl": "",
+            "supportEmail": "help@rf.ie",
+            "supportUrl": "https://www.rockfieldit.com",
             "privacyPolicyUrl": "",
             "aboutUrl": "",
             "primaryColor": "",
@@ -221,7 +221,7 @@
             "AllowSkip": false,
             "AllowDiagnostics": true,
             "DeviceGroupName": "DEV - Autopilot",
-            "CreateNewGroup": false,
+            "CreateNewGroup": true,
             "AssignTo": "AllDevicesAndUsers"
           },
           "remediateEnabled": false,
@@ -337,16 +337,16 @@
           "variables": {
             "state": "enabled",
             "pinMinimumLength": 6,
-            "pinMaximumLength": 10,
+            "pinMaximumLength": 14,
             "pinUppercaseCharactersUsage": "allowed",
             "pinLowercaseCharactersUsage": "allowed",
-            "pinSpecialCharactersUsage": "disallowed",
+            "pinSpecialCharactersUsage": "allowed",
             "securityDeviceRequired": true,
             "unlockWithBiometricsEnabled": true,
             "remotePassportEnabled": false,
             "pinPreviousBlockCount": 0,
             "pinExpirationInDays": 0,
-            "enhancedBiometricsState": "notConfigured",
+            "enhancedBiometricsState": "enabled",
             "enhancedSignInSecurity": 0,
             "securityKeyForSignIn": "notConfigured"
           },
@@ -521,7 +521,7 @@
             "allowInvitesFrom": "adminsGuestInvitersAndAllMembers"
           },
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
