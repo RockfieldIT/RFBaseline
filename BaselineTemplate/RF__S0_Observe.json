@@ -36,6 +36,39 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "AntiPhishPolicy",
+          "instance": "AntiPhishPolicy",
+          "variables": {
+            "name": "CIPP Default Anti-Phishing Policy",
+            "PhishThresholdLevel": "3",
+            "EnableFirstContactSafetyTips": true,
+            "EnableSimilarUsersSafetyTips": true,
+            "EnableSimilarDomainsSafetyTips": true,
+            "EnableUnusualCharactersSafetyTips": true,
+            "AuthenticationFailAction": "MoveToJmf",
+            "SpoofQuarantineTag": "DefaultFullAccessPolicy",
+            "MailboxIntelligenceProtectionAction": "Quarantine",
+            "MailboxIntelligenceQuarantineTag": "DefaultFullAccessPolicy",
+            "TargetedUserProtectionAction": "Quarantine",
+            "TargetedUserQuarantineTag": "DefaultFullAccessPolicy",
+            "TargetedDomainProtectionAction": "Quarantine",
+            "TargetedDomainQuarantineTag": "DefaultFullAccessPolicy"
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "AtpPolicyForO365",
+          "instance": "AtpPolicyForO365",
+          "variables": {
+            "AllowSafeDocsOpen": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "AuditLog",
           "instance": "AuditLog",
           "variables": {
@@ -88,6 +121,27 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "AuthMethodsPolicyMigration",
+          "instance": "AuthMethodsPolicyMigration",
+          "variables": {
+            "migrationState": "migrationComplete"
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "AuthMethodsSettings",
+          "instance": "AuthMethodsSettings",
+          "variables": {
+            "reportSuspiciousActivity": "enabled",
+            "systemCredential": "enabled"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "BitLockerKeysForOwnedDevice",
           "instance": "BitLockerKeysForOwnedDevice",
           "variables": {
@@ -102,6 +156,16 @@
           "instance": "CloudMessageRecall",
           "variables": {
             "enabled": true
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "CustomBannedPasswordList",
+          "instance": "CustomBannedPasswordList",
+          "variables": {
+            "BannedWords": "Rockfield, Ireland, Irish, Leinster, Wicklow, Dublin, Kildare, Carlow, Wexford, Kilkenny, Laois, Blessington, Baltinglass, Naas, Spring, Summer, Autumn, Winter, January, February, March, April, June, July, August, September, October, November, December, Monday, Friday, Welcome, Office, Company"
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -135,6 +199,16 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "DefaultSharingLink",
+          "instance": "DefaultSharingLink",
+          "variables": {
+            "sharingLinkType": 1
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "DefenderCompliancePolicy",
           "instance": "DefenderCompliancePolicy",
           "variables": {
@@ -158,6 +232,16 @@
             "AllowMEMEnforceCompliance": false
           },
           "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DeletedUserRentention",
+          "instance": "DeletedUserRentention",
+          "variables": {
+            "days": 365
+          },
+          "remediateEnabled": true,
           "alertEnabled": false,
           "alertOnRemediate": false
         },
@@ -239,6 +323,16 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "DisableBasicAuthSMTP",
+          "instance": "DisableBasicAuthSMTP",
+          "variables": {
+            "disabled": true
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "DisableGuestDirectory",
           "instance": "DisableGuestDirectory",
           "variables": {
@@ -272,10 +366,36 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "DisableReshare",
+          "instance": "DisableReshare",
+          "variables": {},
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "DisableSecurityGroupUsers",
           "instance": "DisableSecurityGroupUsers",
           "variables": {
             "allowSecurityGroupCreation": false
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableSharedMailbox",
+          "instance": "DisableSharedMailbox",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableSharePointLegacyAuth",
+          "instance": "DisableSharePointLegacyAuth",
+          "variables": {
+            "legacyAuthEnabled": false
           },
           "remediateEnabled": false,
           "alertEnabled": false,
@@ -298,6 +418,14 @@
             "tnefEnabled": false
           },
           "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "EmptyFilterIPAllowList",
+          "instance": "EmptyFilterIPAllowList",
+          "variables": {},
+          "remediateEnabled": false,
           "alertEnabled": false,
           "alertOnRemediate": false
         },
@@ -349,6 +477,16 @@
             "enhancedBiometricsState": "enabled",
             "enhancedSignInSecurity": 0,
             "securityKeyForSignIn": "notConfigured"
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "EXODisableAutoForwarding",
+          "instance": "EXODisableAutoForwarding",
+          "variables": {
+            "autoForwardingMode": "Off"
           },
           "remediateEnabled": false,
           "alertEnabled": false,
@@ -533,11 +671,43 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "MalwareFilterPolicy",
+          "instance": "MalwareFilterPolicy",
+          "variables": {
+            "name": "CIPP Default Malware Policy",
+            "FileTypeAction": "Quarantine",
+            "QuarantineTag": "AdminOnlyAccessPolicy",
+            "OptionalFileTypes": "svg, one",
+            "EnableInternalSenderAdminNotifications": true,
+            "InternalSenderAdminAddress": "monitoring@rf.ie",
+            "EnableExternalSenderAdminNotifications": false,
+            "ExternalSenderAdminAddress": "monitoring@rf.ie"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "MDMScope",
           "instance": "MDMScope",
           "variables": {
             "appliesTo": "all",
             "customGroup": ""
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "NudgeMFA",
+          "instance": "NudgeMFA",
+          "variables": {
+            "state": "enabled",
+            "snoozeDurationInDays": 3,
+            "enforceRegistrationAfterAllowedSnoozes": true,
+            "targetedAuthenticationMethod": "microsoftAuthenticator",
+            "includeTargets": "",
+            "excludeTargets": "CA - Breakglass Admins, CA - JIT Admins"
           },
           "remediateEnabled": false,
           "alertEnabled": false,
@@ -570,6 +740,33 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "SafeAttachmentPolicy",
+          "instance": "SafeAttachmentPolicy",
+          "variables": {
+            "name": "CIPP Default Safe Attachment Policy",
+            "SafeAttachmentAction": "Block",
+            "QuarantineTag": "AdminOnlyAccessPolicy",
+            "Redirect": false,
+            "RedirectAddress": ""
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "SafeLinksPolicy",
+          "instance": "SafeLinksPolicy",
+          "variables": {
+            "name": "CIPP Default SafeLinks Policy",
+            "AllowClickThrough": false,
+            "DisableUrlRewrite": false,
+            "EnableOrganizationBranding": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "SendFromAlias",
           "instance": "SendFromAlias",
           "variables": {
@@ -591,8 +788,87 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "sharingCapability",
+          "instance": "sharingCapability",
+          "variables": {
+            "sharingCapability": 1
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "SpamFilterPolicy",
+          "instance": "SpamFilterPolicy",
+          "variables": {
+            "name": "CIPP Default Spam Filter Policy",
+            "SpamAction": "MoveToJmf",
+            "SpamQuarantineTag": "DefaultFullAccessPolicy",
+            "HighConfidenceSpamAction": "Quarantine",
+            "HighConfidenceSpamQuarantineTag": "AdminOnlyAccessPolicy",
+            "BulkSpamAction": "MoveToJmf",
+            "BulkQuarantineTag": "DefaultFullAccessPolicy",
+            "PhishSpamAction": "Quarantine",
+            "PhishQuarantineTag": "AdminOnlyAccessPolicy",
+            "HighConfidencePhishQuarantineTag": "AdminOnlyAccessPolicy",
+            "BulkThreshold": 7,
+            "IncreaseScoreWithImageLinks": false,
+            "IncreaseScoreWithBizOrInfoUrls": false,
+            "MarkAsSpamFramesInHtml": false,
+            "MarkAsSpamObjectTagsInHtml": false,
+            "MarkAsSpamEmbedTagsInHtml": false,
+            "MarkAsSpamFormTagsInHtml": false,
+            "MarkAsSpamWebBugsInHtml": false,
+            "MarkAsSpamSensitiveWordList": false,
+            "EnableLanguageBlockList": false,
+            "EnableRegionBlockList": false
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "SPDisallowInfectedFiles",
           "instance": "SPDisallowInfectedFiles",
+          "variables": {},
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "SPEmailAttestation",
+          "instance": "SPEmailAttestation",
+          "variables": {
+            "days": 15
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "SPExternalUserExpiration",
+          "instance": "SPExternalUserExpiration",
+          "variables": {
+            "days": 60
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "SpoofWarn",
+          "instance": "SpoofWarn",
+          "variables": {
+            "externalWarningEnabled": true,
+            "allowListAdd": []
+          },
+          "remediateEnabled": true,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "TeamsZAP",
+          "instance": "TeamsZAP",
           "variables": {},
           "remediateEnabled": true,
           "alertEnabled": false,
