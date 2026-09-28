@@ -2,9 +2,9 @@
   "PartitionKey": "CATemplate",
   "RowKey": "7c001014-c117-44b4-b0ac-509cb642a52f",
   "GUID": "7c001014-c117-44b4-b0ac-509cb642a52f",
-  "JSON": "{\"displayName\":\"RF-CA07 - All Users - Session Controls\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"all\"],\"applications\":{\"includeApplications\":[\"All\"]},\"users\":{\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"]},\"devices\":{\"deviceFilter\":{\"mode\":\"include\",\"rule\":\"device.isCompliant -eq True\"}}},\"sessionControls\":{\"signInFrequency\":{\"value\":7,\"type\":\"days\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true},\"persistentBrowser\":{\"mode\":\"never\",\"isEnabled\":true}},\"isSynced\":false}",
+  "JSON": "{\"displayName\":\"RF-CA07 - All Users - Session Controls\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"all\"],\"applications\":{\"includeApplications\":[\"All\"]},\"users\":{\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}},\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"]},\"devices\":{\"deviceFilter\":{\"mode\":\"exclude\",\"rule\":\"device.isCompliant -eq True\"}}},\"sessionControls\":{\"signInFrequency\":{\"value\":7,\"type\":\"days\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true},\"persistentBrowser\":{\"mode\":\"never\",\"isEnabled\":true}},\"isSynced\":false}",
   "Package": "RF-CA-B365G",
-  "SHA": "4117f042fc9d9dde367307720a65aa1a0e34fe6d",
+  "SHA": "8c36e6c9d3965593d0363872a5327bae160c036b",
   "Source": "RockfieldIT/B365G-CA_Policies",
   "SourcePath": "CATemplate/RFCA07__All_Users__Session_Controls.json"
 }
