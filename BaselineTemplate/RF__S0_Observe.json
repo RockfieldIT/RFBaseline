@@ -1,0 +1,338 @@
+{
+  "TemplateType": "BaselineTemplate",
+  "templateName": ".RF - S0 Observe",
+  "description": "description",
+  "assignedTenants": [
+    {
+      "label": "Exported Template",
+      "value": "Exported Template",
+      "type": "Tenant"
+    }
+  ],
+  "excludedTenants": [],
+  "alertEmails": "",
+  "alertWebhookUrl": "",
+  "disableAlerts": false,
+  "stages": [
+    {
+      "name": "S0 Observe",
+      "logic": "and",
+      "conditions": [],
+      "standards": [
+        {
+          "standard": "AnonReportDisable",
+          "instance": "AnonReportDisable",
+          "variables": {},
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "AuthenticationMethods",
+          "instance": "AuthenticationMethods",
+          "variables": {
+            "MicrosoftAuthenticatorEnabled": true,
+            "MicrosoftAuthenticatorGroup": "",
+            "FIDO2Enabled": true,
+            "FIDO2Group": "",
+            "TAPEnabled": true,
+            "TAPGroup": "",
+            "SoftwareOathEnabled": true,
+            "SoftwareOathGroup": "",
+            "HardwareOathEnabled": true,
+            "HardwareOathGroup": "",
+            "SMSEnabled": "notConfigured",
+            "SMSGroup": "",
+            "VoiceEnabled": "notConfigured",
+            "VoiceGroup": "",
+            "EmailEnabled": "notConfigured",
+            "EmailGroup": "",
+            "x509CertificateEnabled": false,
+            "x509CertificateGroup": "",
+            "QRCodePinEnabled": false,
+            "QRCodePinGroup": "",
+            "EmailExcludeGroup": "",
+            "MicrosoftAuthenticatorSoftwareOath": true,
+            "MicrosoftAuthenticatorDisplayAppInfo": "enabled",
+            "MicrosoftAuthenticatorDisplayLocation": "enabled",
+            "MicrosoftAuthenticatorCompanionApp": "default",
+            "TAPDefaultLifetime": 60,
+            "TAPMinLifetime": 60,
+            "TAPMaxLifetime": 480,
+            "TAPDefaultLength": 8,
+            "QRCodeLifetimeInDays": null,
+            "QRCodePinLength": null,
+            "TAPUsableOnce": "true",
+            "EmailAllowExternalIdToUseEmailOtp": "enabled"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "BitLockerKeysForOwnedDevice",
+          "instance": "BitLockerKeysForOwnedDevice",
+          "variables": {
+            "allowed": false
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "CloudMessageRecall",
+          "instance": "CloudMessageRecall",
+          "variables": {
+            "enabled": true
+          },
+          "remediateEnabled": true,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DefaultPlatformRestrictions",
+          "instance": "DefaultPlatformRestrictions",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DefenderCompliancePolicy",
+          "instance": "DefenderCompliancePolicy",
+          "variables": {
+            "ConnectAndroid": false,
+            "ConnectAndroidCompliance": false,
+            "androidDeviceBlockedOnMissingPartnerData": false,
+            "grantMobileThreatDefensePartnerRole": false,
+            "ConnectIos": false,
+            "ConnectIosCompliance": false,
+            "appSync": false,
+            "allowPartnerToCollectIosPersonalApplicationMetadata": false,
+            "iosDeviceBlockedOnMissingPartnerData": false,
+            "allowPartnerToCollectIosCertificateMetadata": false,
+            "allowPartnerToCollectIosPersonalCertificateMetadata": false,
+            "ConnectMac": false,
+            "macDeviceBlockedOnMissingPartnerData": false,
+            "ConnectWindows": false,
+            "windowsMobileApplicationManagementEnabled": false,
+            "windowsDeviceBlockedOnMissingPartnerData": false,
+            "BlockunsupportedOS": false,
+            "AllowMEMEnforceCompliance": false
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DeployCheckChromeExtension",
+          "instance": "DeployCheckChromeExtension",
+          "variables": {
+            "showNotifications": true,
+            "enableValidPageBadge": true,
+            "enablePageBlocking": true,
+            "forceToolbarPin": true,
+            "enableCippReporting": true,
+            "customRulesUrl": "",
+            "updateInterval": 24,
+            "enableDebugLogging": false,
+            "enableGenericWebhook": false,
+            "webhookUrl": "",
+            "domainSquattingEnabled": true,
+            "companyName": "",
+            "productName": "",
+            "supportEmail": "",
+            "supportUrl": "",
+            "privacyPolicyUrl": "",
+            "aboutUrl": "",
+            "primaryColor": "",
+            "logoUrl": "",
+            "customGroup": ""
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DetectConditionalAccessDrift",
+          "instance": "DetectConditionalAccessDrift",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DetectIntuneDrift",
+          "instance": "DetectIntuneDrift",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DevicePrepProfile",
+          "instance": "DevicePrepProfile#m752cfcbc",
+          "variables": {
+            "ProfileName": "DevPrep (APv2)",
+            "ProfileDescription": "",
+            "DeploymentType": "0",
+            "JoinType": "0",
+            "AccountType": "0",
+            "Timeout": 60,
+            "CustomErrorMessage": "The configuration of your device has failed. Please contact Rockfield Support - help@rf.ie or 059 915 8008.",
+            "AllowSkip": false,
+            "AllowDiagnostics": true,
+            "DeviceGroupName": "DEV - Windows 11",
+            "CreateNewGroup": false,
+            "AssignTo": "AllDevicesAndUsers"
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableGuestDirectory",
+          "instance": "DisableGuestDirectory",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableGuests",
+          "instance": "DisableGuests",
+          "variables": {
+            "days": 90
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableTNEF",
+          "instance": "DisableTNEF",
+          "variables": {
+            "tnefEnabled": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "EnableAppConsentRequests",
+          "instance": "EnableAppConsentRequests",
+          "variables": {
+            "ReviewerRoles": "9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3"
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "EnableCustomerLockbox",
+          "instance": "EnableCustomerLockbox",
+          "variables": {
+            "enabled": true
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "EnrollmentWindowsHelloForBusinessConfiguration",
+          "instance": "EnrollmentWindowsHelloForBusinessConfiguration",
+          "variables": {
+            "state": "enabled",
+            "securityDeviceRequired": true,
+            "pinMinimumLength": 6,
+            "pinMaximumLength": 10,
+            "pinLowercaseCharactersUsage": "allowed",
+            "pinUppercaseCharactersUsage": "allowed",
+            "pinSpecialCharactersUsage": "disallowed",
+            "pinExpirationInDays": 0,
+            "pinPreviousBlockCount": 0,
+            "unlockWithBiometricsEnabled": true,
+            "enhancedBiometricsState": "notConfigured",
+            "remotePassportEnabled": false,
+            "enhancedSignInSecurity": 0,
+            "securityKeyForSignIn": "notConfigured"
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ExternalMFATrusted",
+          "instance": "ExternalMFATrusted",
+          "variables": {
+            "state": true
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GuestInvite",
+          "instance": "GuestInvite",
+          "variables": {
+            "allowInvitesFrom": "adminsAndGuestInviters"
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "laps",
+          "instance": "laps",
+          "variables": {},
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "MDMScope",
+          "instance": "MDMScope",
+          "variables": {
+            "customGroup": "",
+            "appliesTo": "all"
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "OauthConsent",
+          "instance": "OauthConsent",
+          "variables": {
+            "AllowedApps": ""
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "SendFromAlias",
+          "instance": "SendFromAlias",
+          "variables": {
+            "state": true
+          },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "SendReceiveLimitTenant",
+          "instance": "SendReceiveLimitTenant",
+          "variables": {
+            "SendLimit": 150,
+            "ReceiveLimit": 150
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        }
+      ]
+    }
+  ],
+  "referencedTemplates": []
+}
