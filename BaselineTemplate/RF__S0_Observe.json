@@ -163,19 +163,6 @@
         },
         {
           "standard": "ConditionalAccessTemplate",
-          "instance": "ConditionalAccessTemplate#127b88a7",
-          "variables": {
-            "caTemplate": "80d3cd65-01b4-4971-ace8-a613d8a065d6",
-            "state": "enabled",
-            "disableSD": false,
-            "createGroups": false
-          },
-          "remediateEnabled": true,
-          "alertEnabled": false,
-          "alertOnRemediate": false
-        },
-        {
-          "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#13280589",
           "variables": {
             "caTemplate": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
@@ -293,6 +280,19 @@
         },
         {
           "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#7df4d9ec",
+          "variables": {
+            "caTemplate": "39062d9e-9c21-461f-bab2-65d97c152287",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#7f55b676",
           "variables": {
             "caTemplate": "7c001014-c117-44b4-b0ac-509cb642a52f",
@@ -375,6 +375,19 @@
           "variables": {
             "caTemplate": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
             "state": "donotchange",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#dbb071b5",
+          "variables": {
+            "caTemplate": "a6963551-2008-4528-afab-59a38ec35327",
+            "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
           },
@@ -1114,12 +1127,6 @@
   "referencedTemplates": [
     {
       "partition": "CATemplate",
-      "guid": "80d3cd65-01b4-4971-ace8-a613d8a065d6",
-      "displayName": "RF-CA17 - JIT Admin - TAP Only",
-      "path": "CATemplate/RFCA17__JIT_Admin__TAP_Only.json"
-    },
-    {
-      "partition": "CATemplate",
       "guid": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
       "displayName": "RF-CA12 - BYOD Users - Browser Only",
       "path": "CATemplate/RFCA12__BYOD_Users__Browser_Only.json"
@@ -1174,6 +1181,12 @@
     },
     {
       "partition": "CATemplate",
+      "guid": "39062d9e-9c21-461f-bab2-65d97c152287",
+      "displayName": "RF-CA19 - All Users - Require MFA to Register or Join Devices",
+      "path": "CATemplate/RFCA19__All_Users__Require_MFA_to_Register_or_Join_Devices.json"
+    },
+    {
+      "partition": "CATemplate",
       "guid": "7c001014-c117-44b4-b0ac-509cb642a52f",
       "displayName": "RF-CA07 - All Users - Session Controls",
       "path": "CATemplate/RFCA07__All_Users__Session_Controls.json"
@@ -1213,6 +1226,12 @@
       "guid": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
       "displayName": "RF-CA02 - All Users - Require MFA",
       "path": "CATemplate/RFCA02__All_Users__Require_MFA.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "a6963551-2008-4528-afab-59a38ec35327",
+      "displayName": "RF-CA17 - Guests - Require MFA",
+      "path": "CATemplate/RFCA17__Guests__Require_MFA.json"
     },
     {
       "partition": "CATemplate",
