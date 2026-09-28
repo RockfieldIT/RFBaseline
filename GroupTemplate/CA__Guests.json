@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "22c46d57-c6cf-4aed-b5eb-cb72d891e530",
   "JSON": "{\"displayName\":\"CA - Guests\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"22c46d57-c6cf-4aed-b5eb-cb72d891e530\"}",
-  "SHA": "613034ac030a0ae3b9fecf25d9448cf7bb02ad41",
+  "SHA": "fdf4cdd36558081631ef7450fbad0f8297187b1f",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/CA__Guests.json"
 }
