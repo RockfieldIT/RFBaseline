@@ -1,0 +1,7 @@
+{
+  "PartitionKey": "GroupTemplate",
+  "RowKey": "3a7eaf16-28db-4ae6-a3e5-bae584b4f87d",
+  "JSON": "{\"displayName\":\"DEV - Exclude\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"3a7eaf16-28db-4ae6-a3e5-bae584b4f87d\"}",
+  "SHA": "68ed1dc9bd8996fba45840bf66752778b8d0443b",
+  "Source": "RockfieldIT/B365G-CA_Groups"
+}
