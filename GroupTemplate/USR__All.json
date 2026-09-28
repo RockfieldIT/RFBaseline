@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "af75e595-e4c7-44a7-8896-b93c1b17228d",
   "JSON": "{\"displayName\":\"USR - All\",\"description\":\"All users for Intune policy deployments\",\"groupType\":\"dynamic\",\"membershipRules\":\"(user.accountEnabled -eq true) and (user.userType -eq \\\"member\\\")\",\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"af75e595-e4c7-44a7-8896-b93c1b17228d\"}",
-  "SHA": "28360eac5e64bfd389eb71f6df3494b9f30926eb",
+  "SHA": "e4cc13ea3ab26f2918e7b29f8ba0d52d6834e623",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/USR__All.json"
 }
