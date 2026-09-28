@@ -20,11 +20,27 @@
       "conditions": [],
       "standards": [
         {
+          "standard": "AddDKIM",
+          "instance": "AddDKIM",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "AnonReportDisable",
           "instance": "AnonReportDisable",
           "variables": {},
           "remediateEnabled": true,
           "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "AuditLog",
+          "instance": "AuditLog",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
           "alertOnRemediate": false
         },
         {
@@ -75,8 +91,8 @@
           "variables": {
             "allowed": false
           },
-          "remediateEnabled": false,
-          "alertEnabled": true,
+          "remediateEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -86,15 +102,34 @@
             "enabled": true
           },
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
           "standard": "DefaultPlatformRestrictions",
           "instance": "DefaultPlatformRestrictions",
-          "variables": {},
+          "variables": {
+            "platformAndroidForWorkBlocked": false,
+            "personalAndroidForWorkBlocked": false,
+            "osMinimumVersionAndroidForWork": "",
+            "osMaximumVersionAndroidForWork": "",
+            "platformAndroidBlocked": true,
+            "personalAndroidBlocked": false,
+            "osMinimumVersionAndroid": "",
+            "osMaximumVersionAndroid": "",
+            "platformiOSBlocked": false,
+            "personaliOSBlocked": false,
+            "osMinimumVersioniOS": "",
+            "osMaximumVersioniOS": "",
+            "platformMacOSBlocked": false,
+            "personalMacOSBlocked": false,
+            "platformWindowsBlocked": false,
+            "personalWindowsBlocked": false,
+            "osMinimumVersionWindows": "10.0.26100",
+            "osMaximumVersionWindows": ""
+          },
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -112,16 +147,16 @@
             "iosDeviceBlockedOnMissingPartnerData": false,
             "allowPartnerToCollectIosCertificateMetadata": false,
             "allowPartnerToCollectIosPersonalCertificateMetadata": false,
-            "ConnectMac": false,
+            "ConnectMac": true,
             "macDeviceBlockedOnMissingPartnerData": false,
             "ConnectWindows": false,
-            "windowsMobileApplicationManagementEnabled": false,
+            "windowsMobileApplicationManagementEnabled": true,
             "windowsDeviceBlockedOnMissingPartnerData": false,
             "BlockunsupportedOS": false,
             "AllowMEMEnforceCompliance": false
           },
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -147,10 +182,11 @@
             "aboutUrl": "",
             "primaryColor": "",
             "logoUrl": "",
-            "customGroup": ""
+            "customGroup": "",
+            "excludeGroup": ""
           },
-          "remediateEnabled": false,
-          "alertEnabled": true,
+          "remediateEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -158,7 +194,7 @@
           "instance": "DetectConditionalAccessDrift",
           "variables": {},
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -166,7 +202,7 @@
           "instance": "DetectIntuneDrift",
           "variables": {},
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -182,10 +218,18 @@
             "CustomErrorMessage": "The configuration of your device has failed. Please contact Rockfield Support - help@rf.ie or 059 915 8008.",
             "AllowSkip": false,
             "AllowDiagnostics": true,
-            "DeviceGroupName": "DEV - Windows 11",
+            "DeviceGroupName": "DEV - Autopilot",
             "CreateNewGroup": false,
             "AssignTo": "AllDevicesAndUsers"
           },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableAppCreation",
+          "instance": "DisableAppCreation",
+          "variables": {},
           "remediateEnabled": false,
           "alertEnabled": true,
           "alertOnRemediate": false
@@ -193,17 +237,45 @@
         {
           "standard": "DisableGuestDirectory",
           "instance": "DisableGuestDirectory",
-          "variables": {},
-          "remediateEnabled": false,
-          "alertEnabled": true,
+          "variables": {
+            "guestUserRoleId": "2af84b1e-32c8-42b7-82bc-daa82404023b"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
           "standard": "DisableGuests",
           "instance": "DisableGuests",
           "variables": {
-            "days": 90
+            "days": 60,
+            "deleteGraceDays": 0,
+            "IncludeNeverSignedIn": true
           },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableM365GroupUsers",
+          "instance": "DisableM365GroupUsers",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableSecurityGroupUsers",
+          "instance": "DisableSecurityGroupUsers",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableTenantCreation",
+          "instance": "DisableTenantCreation",
+          "variables": {},
           "remediateEnabled": false,
           "alertEnabled": true,
           "alertOnRemediate": false
@@ -222,10 +294,10 @@
           "standard": "EnableAppConsentRequests",
           "instance": "EnableAppConsentRequests",
           "variables": {
-            "ReviewerRoles": "9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3"
+            "ReviewerRoles": null
           },
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -239,21 +311,29 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "EnableMailboxAuditing",
+          "instance": "EnableMailboxAuditing",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "EnrollmentWindowsHelloForBusinessConfiguration",
           "instance": "EnrollmentWindowsHelloForBusinessConfiguration",
           "variables": {
             "state": "enabled",
-            "securityDeviceRequired": true,
             "pinMinimumLength": 6,
             "pinMaximumLength": 10,
-            "pinLowercaseCharactersUsage": "allowed",
             "pinUppercaseCharactersUsage": "allowed",
+            "pinLowercaseCharactersUsage": "allowed",
             "pinSpecialCharactersUsage": "disallowed",
-            "pinExpirationInDays": 0,
-            "pinPreviousBlockCount": 0,
+            "securityDeviceRequired": true,
             "unlockWithBiometricsEnabled": true,
-            "enhancedBiometricsState": "notConfigured",
             "remotePassportEnabled": false,
+            "pinPreviousBlockCount": 0,
+            "pinExpirationInDays": 0,
+            "enhancedBiometricsState": "notConfigured",
             "enhancedSignInSecurity": 0,
             "securityKeyForSignIn": "notConfigured"
           },
@@ -269,6 +349,14 @@
           },
           "remediateEnabled": true,
           "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GlobalQuarantineNotifications",
+          "instance": "GlobalQuarantineNotifications",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
           "alertOnRemediate": false
         },
         {
@@ -311,6 +399,22 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "PasswordExpireDisabled",
+          "instance": "PasswordExpireDisabled",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "RotateDKIM",
+          "instance": "RotateDKIM",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "SendFromAlias",
           "instance": "SendFromAlias",
           "variables": {
@@ -329,6 +433,14 @@
           },
           "remediateEnabled": true,
           "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "SPDisallowInfectedFiles",
+          "instance": "SPDisallowInfectedFiles",
+          "variables": {},
+          "remediateEnabled": false,
+          "alertEnabled": true,
           "alertOnRemediate": false
         }
       ]
