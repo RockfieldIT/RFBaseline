@@ -1,0 +1,10 @@
+{
+  "PartitionKey": "CATemplate",
+  "RowKey": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
+  "GUID": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
+  "JSON": "{\"displayName\":\"RF-CA12 - BYOD Users - Browser Only\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"browser\"],\"applications\":{\"includeApplications\":[\"00000003-0000-0ff1-ce00-000000000000\",\"00000002-0000-0ff1-ce00-000000000000\"]},\"users\":{\"includeGroups\":[\"USR-BYOD\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeUsers\":[]},\"platforms\":{\"includePlatforms\":[\"windows\",\"macOS\"]},\"devices\":{\"deviceFilter\":{\"mode\":\"include\",\"rule\":\"device.isCompliant -ne True\"}}},\"sessionControls\":{\"applicationEnforcedRestrictions\":{\"isEnabled\":true}},\"isSynced\":false}",
+  "Package": "RF-CA-B365G",
+  "SHA": "c0d50ceaf3e47a3ac146d76a29f7f6687e30c758",
+  "Source": "RockfieldIT/B365G-CA_Policies",
+  "SourcePath": "CATemplate/RFCA12__BYOD_Users__Browser_Only.json"
+}
