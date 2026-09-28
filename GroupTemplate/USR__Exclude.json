@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "d2c3d049-867b-41f5-b1d7-2064ba357433",
   "JSON": "{\"displayName\":\"USR - Exclude\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"d2c3d049-867b-41f5-b1d7-2064ba357433\"}",
-  "SHA": "943097ce2e7a6332de676b3365425ba63256e5d5",
+  "SHA": "f28c5b7745798ab72cdedb0e6be5c42068a1d9c4",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/USR__Exclude.json"
 }
