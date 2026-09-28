@@ -1,0 +1,7 @@
+{
+  "PartitionKey": "GroupTemplate",
+  "RowKey": "83f424f5-9714-4ef4-af85-5b3f67c712e8",
+  "JSON": "{\"displayName\":\"DEV - Windows\",\"description\":\"Dynamic device group for ALL Windows devices\",\"groupType\":\"dynamic\",\"membershipRules\":\"(device.deviceOSType -eq \\\"Windows\\\")\",\"allowExternal\":null,\"username\":null,\"licenses\":[],\"GUID\":\"83f424f5-9714-4ef4-af85-5b3f67c712e8\"}",
+  "SHA": "9cb8b74cffc884ed99601c8793a49792272596aa",
+  "Source": "RockfieldIT/B365G-CA_Groups"
+}
