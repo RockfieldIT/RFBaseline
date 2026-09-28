@@ -1,0 +1,10 @@
+{
+  "PartitionKey": "CATemplate",
+  "RowKey": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1",
+  "GUID": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1",
+  "JSON": "{\"displayName\":\"RF-CA15 - BYOD Users - Require TAP for MFA Registration\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeGroups\":[\"USR-BYOD\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeUserActions\":[\"urn:user:registersecurityinfo\"]},\"clientAppTypes\":[\"all\"]},\"grantControls\":{\"operator\":\"OR\",\"authenticationStrength\":{\"id\":\"00000000-0000-0000-0000-000000000003\"}},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
+  "Package": "RF-CA-B365G",
+  "SHA": "b726774997e80411b7819a6ce77e34e9a90028e1",
+  "Source": "RockfieldIT/B365G-CA_Policies",
+  "SourcePath": "CATemplate/RFCA15__BYOD_Users__Require_TAP_for_MFA_Registration.json"
+}
