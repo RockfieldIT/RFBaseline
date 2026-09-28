@@ -2,9 +2,9 @@
   "PartitionKey": "CATemplate",
   "RowKey": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
   "GUID": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
-  "JSON": "{\"displayName\":\"RF-CA14 - BYOD Users - Session Controls\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"all\"],\"applications\":{\"includeApplications\":[\"All\"]},\"users\":{\"excludeUsers\":[],\"includeGroups\":[\"USR-BYOD\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"]}},\"sessionControls\":{\"signInFrequency\":{\"value\":12,\"type\":\"hours\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true},\"persistentBrowser\":{\"mode\":\"never\",\"isEnabled\":true}},\"source\":\"RockfieldIT/CIPP-RF-B365G\",\"isSynced\":true}",
+  "JSON": "{\"displayName\":\"RF-CA14 - BYOD Users - Session Controls\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"all\"],\"applications\":{\"includeApplications\":[\"All\"]},\"users\":{\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}},\"excludeUsers\":[],\"includeGroups\":[\"USR-BYOD\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"]}},\"sessionControls\":{\"signInFrequency\":{\"value\":12,\"type\":\"hours\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true},\"persistentBrowser\":{\"mode\":\"never\",\"isEnabled\":true}},\"source\":\"RockfieldIT/CIPP-RF-B365G\",\"isSynced\":true}",
   "Package": "RF-CA-B365G",
-  "SHA": "90942b8626a05cf018c88a373acf5c3a51281ea1",
+  "SHA": "eae66bb93e46ba9f148f650ab0e3297bdc42a543",
   "Source": "RockfieldIT/B365G-CA_Policies",
   "SourcePath": "CATemplate/RFCA14__BYOD_Users__Session_Controls.json"
 }
