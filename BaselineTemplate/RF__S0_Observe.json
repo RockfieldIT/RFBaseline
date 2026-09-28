@@ -24,7 +24,7 @@
           "instance": "AddDKIM",
           "variables": {},
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -42,7 +42,7 @@
             "enabled": false
           },
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -288,7 +288,7 @@
             "allowTenantCreation": false
           },
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -298,7 +298,7 @@
             "tnefEnabled": false
           },
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -328,7 +328,7 @@
             "auditDisabled": false
           },
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -371,7 +371,7 @@
             "NotificationInterval": "04:00:00"
           },
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -418,7 +418,7 @@
           "instance": "PasswordExpireDisabled",
           "variables": {},
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -426,7 +426,7 @@
           "instance": "RotateDKIM",
           "variables": {},
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -455,7 +455,7 @@
           "instance": "SPDisallowInfectedFiles",
           "variables": {},
           "remediateEnabled": true,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         }
       ]
