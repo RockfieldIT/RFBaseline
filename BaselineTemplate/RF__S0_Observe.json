@@ -375,6 +375,146 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#0549c5dc",
+          "variables": {
+            "groupTemplate": "3a7eaf16-28db-4ae6-a3e5-bae584b4f87d"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#1a89e558",
+          "variables": {
+            "groupTemplate": "66aa36b1-4837-4022-afd1-5c1384c6a16f"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#1ab350e5",
+          "variables": {
+            "groupTemplate": "56fba82e-942e-4f1a-8679-ae42388a4dac"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#29de8e92",
+          "variables": {
+            "groupTemplate": "241d90c8-fbb0-4c22-9545-7018d87d62f5"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#3d0197d5",
+          "variables": {
+            "groupTemplate": "b9413b7f-2240-45c9-838a-dfa61bd15f23"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#509fe0e2",
+          "variables": {
+            "groupTemplate": "83f424f5-9714-4ef4-af85-5b3f67c712e8"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#55348fe9",
+          "variables": {
+            "groupTemplate": "bb95f70d-5edf-4adb-b208-d76dbb946a32"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#57c4975b",
+          "variables": {
+            "groupTemplate": "af75e595-e4c7-44a7-8896-b93c1b17228d"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#9b577777",
+          "variables": {
+            "groupTemplate": "22c46d57-c6cf-4aed-b5eb-cb72d891e530"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#a93f2968",
+          "variables": {
+            "groupTemplate": "cd9556e2-09d6-40da-a38c-aa37c253def4"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#aa057312",
+          "variables": {
+            "groupTemplate": "9f58a179-bfa4-4b92-93c5-4fd6087e44c1"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#aa41ebec",
+          "variables": {
+            "groupTemplate": "0404318c-3135-499c-92ea-75185533f9e6"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#d28bd7b9",
+          "variables": {
+            "groupTemplate": "d2c3d049-867b-41f5-b1d7-2064ba357433"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#fb71f17a",
+          "variables": {
+            "groupTemplate": "c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "GuestInvite",
           "instance": "GuestInvite",
           "variables": {
@@ -461,5 +601,90 @@
       ]
     }
   ],
-  "referencedTemplates": []
+  "referencedTemplates": [
+    {
+      "partition": "GroupTemplate",
+      "guid": "3a7eaf16-28db-4ae6-a3e5-bae584b4f87d",
+      "displayName": "DEV - Exclude",
+      "path": "GroupTemplate/DEV__Exclude.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "66aa36b1-4837-4022-afd1-5c1384c6a16f",
+      "displayName": "CA - Contractors",
+      "path": "GroupTemplate/CA__Contractors.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "56fba82e-942e-4f1a-8679-ae42388a4dac",
+      "displayName": "DEV - Pilot",
+      "path": "GroupTemplate/DEV__Pilot.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "241d90c8-fbb0-4c22-9545-7018d87d62f5",
+      "displayName": "USR - Pilot",
+      "path": "GroupTemplate/USR__Pilot.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "b9413b7f-2240-45c9-838a-dfa61bd15f23",
+      "displayName": "DEV - macOS",
+      "path": "GroupTemplate/DEV__macOS.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "83f424f5-9714-4ef4-af85-5b3f67c712e8",
+      "displayName": "DEV - Windows",
+      "path": "GroupTemplate/DEV__Windows.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "bb95f70d-5edf-4adb-b208-d76dbb946a32",
+      "displayName": "CA - Pilot Users",
+      "path": "GroupTemplate/CA__Pilot_Users.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "af75e595-e4c7-44a7-8896-b93c1b17228d",
+      "displayName": "USR - All",
+      "path": "GroupTemplate/USR__All.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "22c46d57-c6cf-4aed-b5eb-cb72d891e530",
+      "displayName": "CA - Guests",
+      "path": "GroupTemplate/CA__Guests.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "cd9556e2-09d6-40da-a38c-aa37c253def4",
+      "displayName": "CA - JIT Admins",
+      "path": "GroupTemplate/CA__JIT_Admins.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "9f58a179-bfa4-4b92-93c5-4fd6087e44c1",
+      "displayName": "DEV - Windows 11",
+      "path": "GroupTemplate/DEV__Windows_11.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "0404318c-3135-499c-92ea-75185533f9e6",
+      "displayName": "CA - Temp Admins",
+      "path": "GroupTemplate/CA__Temp_Admins.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "d2c3d049-867b-41f5-b1d7-2064ba357433",
+      "displayName": "USR - Exclude",
+      "path": "GroupTemplate/USR__Exclude.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7",
+      "displayName": "CA - Breakglass Admins",
+      "path": "GroupTemplate/CA__Breakglass_Admins.json"
+    }
+  ]
 }
