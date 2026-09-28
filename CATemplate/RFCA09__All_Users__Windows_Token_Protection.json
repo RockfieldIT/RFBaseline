@@ -1,0 +1,10 @@
+{
+  "PartitionKey": "CATemplate",
+  "RowKey": "198e9c44-f794-4dd5-a230-6be1799a8122",
+  "GUID": "198e9c44-f794-4dd5-a230-6be1799a8122",
+  "JSON": "{\"displayName\":\"RF-CA09 - All Users - Windows Token Protection\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"mobileAppsAndDesktopClients\"],\"applications\":{\"includeApplications\":[\"cc15fd57-2c6c-4117-a88c-83b1d56b4bbe\",\"00000002-0000-0ff1-ce00-000000000000\",\"00000003-0000-0ff1-ce00-000000000000\"]},\"users\":{\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"]},\"platforms\":{\"includePlatforms\":[\"windows\"]}},\"sessionControls\":{\"secureSignInSession\":{\"isEnabled\":true}},\"isSynced\":false}",
+  "Package": "RF-CA-B365G",
+  "SHA": "be4a5dbd9671316749e1ce7356d73d2349cb85c5",
+  "Source": "RockfieldIT/B365G-CA_Policies",
+  "SourcePath": "CATemplate/RFCA09__All_Users__Windows_Token_Protection.json"
+}
