@@ -1,0 +1,7 @@
+{
+  "PartitionKey": "GroupTemplate",
+  "RowKey": "c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7",
+  "JSON": "{\"displayName\":\"CA - Breakglass Admins\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":[],\"aliases\":null,\"hideFromGAL\":null,\"GUID\":\"c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7\"}",
+  "SHA": "47953320a4fd40864e7c8d79f9f9ed38cec66e42",
+  "Source": "RockfieldIT/B365G-CA_Groups"
+}
