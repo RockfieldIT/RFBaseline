@@ -1,0 +1,10 @@
+{
+  "PartitionKey": "CATemplate",
+  "RowKey": "a6963551-2008-4528-afab-59a38ec35327",
+  "GUID": "a6963551-2008-4528-afab-59a38ec35327",
+  "JSON": "{\"displayName\":\"RF-CA17 - Guests - Require MFA\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[],\"includeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser\",\"externalTenants\":{\"@odata.type\":\"#microsoft.graph.conditionalAccessAllExternalTenants\",\"membershipKind\":\"all\"}},\"excludeGroups\":[\"CA - Breakglass Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"]},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"mfa\"]},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
+  "Package": "RF-CA-B365G",
+  "SHA": "123a4dbe926016b8f94f5dc57f424630f785232e",
+  "Source": "RockfieldIT/B365G-CA_Policies",
+  "SourcePath": "CATemplate/RFCA17__Guests__Require_MFA.json"
+}
