@@ -1,0 +1,10 @@
+{
+  "PartitionKey": "CATemplate",
+  "RowKey": "c2e72fc0-8dac-4316-9e0e-265483c94a88",
+  "GUID": "c2e72fc0-8dac-4316-9e0e-265483c94a88",
+  "JSON": "{\"displayName\":\"RF-CA08 - Admins - Session Controls\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"all\"],\"applications\":{\"includeApplications\":[\"All\"]},\"users\":{\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"includeRoles\":[\"b1be1c3e-b65d-4f19-8427-f6fa0d97feb9\",\"158c047a-c907-4556-b7ef-446551a6b5f7\",\"29232cdf-9323-42fd-ade2-1d097af3e4de\",\"62e90394-69f5-4237-9190-012177145e10\",\"729827e3-9c14-49f7-bb1b-9608f156bbb8\",\"194ae4cb-b126-40b2-bd5b-6091b380977d\",\"f28a1f50-f6e7-4571-818b-6a12f2af6b6c\",\"fe930be7-5e62-47db-91af-98c3a49a38b1\"],\"excludeUsers\":[\"Break Glass 01\",\"ReganLawAdmin\"]}},\"sessionControls\":{\"signInFrequency\":{\"value\":4,\"type\":\"hours\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true},\"persistentBrowser\":{\"mode\":\"never\",\"isEnabled\":true}},\"isSynced\":false}",
+  "Package": "RF-CA-B365G",
+  "SHA": "e714619b0dbfa9849f467cea40216ff6dde479b1",
+  "Source": "RockfieldIT/B365G-CA_Policies",
+  "SourcePath": "CATemplate/RFCA08__Admins__Session_Controls.json"
+}
