@@ -23,7 +23,7 @@
           "standard": "AddDKIM",
           "instance": "AddDKIM",
           "variables": {},
-          "remediateEnabled": false,
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         },
@@ -38,8 +38,10 @@
         {
           "standard": "AuditLog",
           "instance": "AuditLog",
-          "variables": {},
-          "remediateEnabled": false,
+          "variables": {
+            "enabled": false
+          },
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         },
@@ -229,9 +231,11 @@
         {
           "standard": "DisableAppCreation",
           "instance": "DisableAppCreation",
-          "variables": {},
-          "remediateEnabled": false,
-          "alertEnabled": true,
+          "variables": {
+            "allowAppCreation": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -259,24 +263,31 @@
         {
           "standard": "DisableM365GroupUsers",
           "instance": "DisableM365GroupUsers",
-          "variables": {},
+          "variables": {
+            "AllowedGroupName": "",
+            "CreateGroup": false
+          },
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
           "standard": "DisableSecurityGroupUsers",
           "instance": "DisableSecurityGroupUsers",
-          "variables": {},
+          "variables": {
+            "allowSecurityGroupCreation": false
+          },
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
           "standard": "DisableTenantCreation",
           "instance": "DisableTenantCreation",
-          "variables": {},
-          "remediateEnabled": false,
+          "variables": {
+            "allowTenantCreation": false
+          },
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         },
@@ -313,8 +324,10 @@
         {
           "standard": "EnableMailboxAuditing",
           "instance": "EnableMailboxAuditing",
-          "variables": {},
-          "remediateEnabled": false,
+          "variables": {
+            "auditDisabled": false
+          },
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         },
@@ -338,7 +351,7 @@
             "securityKeyForSignIn": "notConfigured"
           },
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -354,8 +367,10 @@
         {
           "standard": "GlobalQuarantineNotifications",
           "instance": "GlobalQuarantineNotifications",
-          "variables": {},
-          "remediateEnabled": false,
+          "variables": {
+            "NotificationInterval": "04:00:00"
+          },
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         },
@@ -363,9 +378,9 @@
           "standard": "GuestInvite",
           "instance": "GuestInvite",
           "variables": {
-            "allowInvitesFrom": "adminsAndGuestInviters"
+            "allowInvitesFrom": "adminsGuestInvitersAndAllMembers"
           },
-          "remediateEnabled": false,
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         },
@@ -381,11 +396,11 @@
           "standard": "MDMScope",
           "instance": "MDMScope",
           "variables": {
-            "customGroup": "",
-            "appliesTo": "all"
+            "appliesTo": "all",
+            "customGroup": ""
           },
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
@@ -395,14 +410,14 @@
             "AllowedApps": ""
           },
           "remediateEnabled": false,
-          "alertEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
           "standard": "PasswordExpireDisabled",
           "instance": "PasswordExpireDisabled",
           "variables": {},
-          "remediateEnabled": false,
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         },
@@ -410,7 +425,7 @@
           "standard": "RotateDKIM",
           "instance": "RotateDKIM",
           "variables": {},
-          "remediateEnabled": false,
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         },
@@ -439,7 +454,7 @@
           "standard": "SPDisallowInfectedFiles",
           "instance": "SPDisallowInfectedFiles",
           "variables": {},
-          "remediateEnabled": false,
+          "remediateEnabled": true,
           "alertEnabled": true,
           "alertOnRemediate": false
         }
