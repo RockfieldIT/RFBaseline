@@ -162,6 +162,240 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#127b88a7",
+          "variables": {
+            "caTemplate": "80d3cd65-01b4-4971-ace8-a613d8a065d6",
+            "state": "enabled",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#13280589",
+          "variables": {
+            "caTemplate": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#1a78931f",
+          "variables": {
+            "caTemplate": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#22ed143d",
+          "variables": {
+            "caTemplate": "8fcac770-f7b0-44e1-b2e8-f05223225fa2",
+            "state": "donotchange",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#485ee0e5",
+          "variables": {
+            "caTemplate": "af16ff5e-a2de-425b-912c-a99f1a8af41d",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#5982cec5",
+          "variables": {
+            "caTemplate": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
+            "state": "donotchange",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#5ba5fbc1",
+          "variables": {
+            "caTemplate": "198e9c44-f794-4dd5-a230-6be1799a8122",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#608ee116",
+          "variables": {
+            "caTemplate": "aed7e678-01eb-4bff-983d-902c4039abd8",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#6e6a7cd9",
+          "variables": {
+            "caTemplate": "c2e72fc0-8dac-4316-9e0e-265483c94a88",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#7de25ec8",
+          "variables": {
+            "caTemplate": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#7f55b676",
+          "variables": {
+            "caTemplate": "7c001014-c117-44b4-b0ac-509cb642a52f",
+            "state": "donotchange",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#800c352c",
+          "variables": {
+            "caTemplate": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#8d63c123",
+          "variables": {
+            "caTemplate": "286024bb-4869-44f6-b1c5-a02e068ae28c",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#93fd5394",
+          "variables": {
+            "caTemplate": "14df7729-bb8b-4248-9134-8c03f70f9e04",
+            "state": "donotchange",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#a41d37b1",
+          "variables": {
+            "caTemplate": "2941ce97-615f-486a-be43-4ebc998282b2",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#af4d9344",
+          "variables": {
+            "caTemplate": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0",
+            "state": "donotchange",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#ca354fdf",
+          "variables": {
+            "caTemplate": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
+            "state": "donotchange",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#e28ec47b",
+          "variables": {
+            "caTemplate": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "CustomBannedPasswordList",
           "instance": "CustomBannedPasswordList",
           "variables": {
@@ -878,6 +1112,114 @@
     }
   ],
   "referencedTemplates": [
+    {
+      "partition": "CATemplate",
+      "guid": "80d3cd65-01b4-4971-ace8-a613d8a065d6",
+      "displayName": "RF-CA17 - JIT Admin - TAP Only",
+      "path": "CATemplate/RFCA17__JIT_Admin__TAP_Only.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
+      "displayName": "RF-CA12 - BYOD Users - Browser Only",
+      "path": "CATemplate/RFCA12__BYOD_Users__Browser_Only.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
+      "displayName": "RF-CA14 - BYOD Users - Session Controls",
+      "path": "CATemplate/RFCA14__BYOD_Users__Session_Controls.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "8fcac770-f7b0-44e1-b2e8-f05223225fa2",
+      "displayName": "RF-CA06 - All Users - Block Unsupported Platforms",
+      "path": "CATemplate/RFCA06__All_Users__Block_Unsupported_Platforms.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "af16ff5e-a2de-425b-912c-a99f1a8af41d",
+      "displayName": "RF-CA13 - BYOD Users - Block Desktop Apps",
+      "path": "CATemplate/RFCA13__BYOD_Users__Block_Desktop_Apps.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
+      "displayName": "RF-CA01 - All Users - Block Legacy Auth",
+      "path": "CATemplate/RFCA01__All_Users__Block_Legacy_Auth.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "198e9c44-f794-4dd5-a230-6be1799a8122",
+      "displayName": "RF-CA09 - All Users - Windows Token Protection",
+      "path": "CATemplate/RFCA09__All_Users__Windows_Token_Protection.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "aed7e678-01eb-4bff-983d-902c4039abd8",
+      "displayName": "RF-CA05 - All Users - Require Compliant Device",
+      "path": "CATemplate/RFCA05__All_Users__Require_Compliant_Device.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "c2e72fc0-8dac-4316-9e0e-265483c94a88",
+      "displayName": "RF-CA08 - Admins - Session Controls",
+      "path": "CATemplate/RFCA08__Admins__Session_Controls.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36",
+      "displayName": "RF-CA11 - All Users - Block Authentication Transfer",
+      "path": "CATemplate/RFCA11__All_Users__Block_Authentication_Transfer.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "7c001014-c117-44b4-b0ac-509cb642a52f",
+      "displayName": "RF-CA07 - All Users - Session Controls",
+      "path": "CATemplate/RFCA07__All_Users__Session_Controls.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1",
+      "displayName": "RF-CA15 - BYOD Users - Require TAP for MFA Registration",
+      "path": "CATemplate/RFCA15__BYOD_Users__Require_TAP_for_MFA_Registration.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "286024bb-4869-44f6-b1c5-a02e068ae28c",
+      "displayName": "RF-CA18 - Block sign in outside Safe Locations",
+      "path": "CATemplate/RFCA18__Block_sign_in_outside_Safe_Locations.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "14df7729-bb8b-4248-9134-8c03f70f9e04",
+      "displayName": "RF-CA04 - Admins - Require Phish Resistant MFA",
+      "path": "CATemplate/RFCA04__Admins__Require_Phish_Resistant_MFA.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "2941ce97-615f-486a-be43-4ebc998282b2",
+      "displayName": "RF-CA16 - BYOD Users - Require App Protection",
+      "path": "CATemplate/RFCA16__BYOD_Users__Require_App_Protection.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0",
+      "displayName": "RF-CA03 - Breakglass - Require Phish Resistant MFA",
+      "path": "CATemplate/RFCA03__Breakglass__Require_Phish_Resistant_MFA.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
+      "displayName": "RF-CA02 - All Users - Require MFA",
+      "path": "CATemplate/RFCA02__All_Users__Require_MFA.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b",
+      "displayName": "RF-CA10 - All Users - Block Device Code Flow",
+      "path": "CATemplate/RFCA10__All_Users__Block_Device_Code_Flow.json"
+    },
     {
       "partition": "GroupTemplate",
       "guid": "3a7eaf16-28db-4ae6-a3e5-bae584b4f87d",
