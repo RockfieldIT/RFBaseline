@@ -1,0 +1,9 @@
+{
+  "PartitionKey": "CATemplate",
+  "RowKey": "80d3cd65-01b4-4971-ace8-a613d8a065d6",
+  "GUID": "80d3cd65-01b4-4971-ace8-a613d8a065d6",
+  "JSON": "{\"displayName\":\"RF-CA17 - JIT Admin - TAP Only\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeGroups\":[\"CA - JIT Admins \"],\"excludeGroups\":[\"CA - Breakglass Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"]},\"grantControls\":{\"operator\":\"OR\",\"authenticationStrength\":{\"id\":\"00000000-0000-0000-0000-000000000003\"}},\"sessionControls\":{\"disableResilienceDefaults\":false}}",
+  "SHA": "749c97f31dc0f5bf6933a0182bffe9b680a964a7",
+  "Source": "RockfieldIT/B365G-CA_Policies",
+  "SourcePath": "CATemplate/RFCA17__JIT_Admin__TAP_Only.json"
+}
