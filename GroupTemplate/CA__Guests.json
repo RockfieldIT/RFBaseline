@@ -1,0 +1,7 @@
+{
+  "PartitionKey": "GroupTemplate",
+  "RowKey": "22c46d57-c6cf-4aed-b5eb-cb72d891e530",
+  "JSON": "{\"displayName\":\"CA - Guests\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"22c46d57-c6cf-4aed-b5eb-cb72d891e530\"}",
+  "SHA": "97859d108097efcbb0206cbf1fd26a474034de1a",
+  "Source": "RockfieldIT/B365G-CA_Groups"
+}
