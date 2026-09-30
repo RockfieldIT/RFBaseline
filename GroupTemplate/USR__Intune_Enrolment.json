@@ -1,5 +1,8 @@
 {
   "PartitionKey": "GroupTemplate",
   "RowKey": "48f78bfe-b70d-4203-a2d9-e15a7853cdfa",
-  "JSON": "{\n  \"displayName\": \"USR - Intune Enrolment\",\n  \"description\": \"Users whose corporate PC is being adopted. Only their PCs enrol in Intune automatically (MDM scope).\",\n  \"groupType\": \"generic\",\n  \"membershipRules\": null,\n  \"allowExternal\": null,\n  \"username\": \"usr-intune-enrolment\",\n  \"licenses\": null,\n  \"aliases\": null,\n  \"hideFromGAL\": null,\n  \"GUID\": \"48f78bfe-b70d-4203-a2d9-e15a7853cdfa\"\n}"
+  "JSON": "{\n  \"displayName\": \"USR - Intune Enrolment\",\n  \"description\": \"Users whose corporate PC is being adopted. Only their PCs enrol in Intune automatically (MDM scope).\",\n  \"groupType\": \"generic\",\n  \"membershipRules\": null,\n  \"allowExternal\": null,\n  \"username\": \"usr-intune-enrolment\",\n  \"licenses\": null,\n  \"aliases\": null,\n  \"hideFromGAL\": null,\n  \"GUID\": \"48f78bfe-b70d-4203-a2d9-e15a7853cdfa\"\n}",
+  "SHA": "487a6fd775b0103811d6f54859ce060b7bdefedb",
+  "Source": "RockfieldIT/RFBaseline",
+  "SourcePath": "GroupTemplate/USR__Intune_Enrolment.json"
 }
