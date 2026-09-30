@@ -560,6 +560,16 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "DisableAdditionalStorageProviders",
+          "instance": "DisableAdditionalStorageProviders",
+          "variables": {
+            "storageProvidersAvailable": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "DisableAppCreation",
           "instance": "DisableAppCreation",
           "variables": {
@@ -608,6 +618,14 @@
             "AllowedGroupName": "",
             "CreateGroup": false
           },
+          "remediateEnabled": false,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableOutlookAddins",
+          "instance": "DisableOutlookAddins",
+          "variables": {},
           "remediateEnabled": false,
           "alertEnabled": false,
           "alertOnRemediate": false
@@ -701,6 +719,17 @@
           "instance": "EnableMailboxAuditing",
           "variables": {
             "auditDisabled": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "EnableMailTips",
+          "instance": "EnableMailTips",
+          "variables": {
+            "mailTipsEnabled": true,
+            "largeAudienceThreshold": 25
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -1111,6 +1140,35 @@
           },
           "remediateEnabled": true,
           "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "TeamsGlobalMeetingPolicy",
+          "instance": "TeamsGlobalMeetingPolicy",
+          "variables": {
+            "DesignatedPresenterRoleMode": "OrganizerOnlyUserOverride",
+            "AllowAnonymousUsersToJoinMeeting": false,
+            "AllowAnonymousUsersToStartMeeting": false,
+            "AutoAdmittedUsers": "EveryoneInCompanyExcludingGuests",
+            "AllowPSTNUsersToBypassLobby": false,
+            "MeetingChatEnabledType": "EnabledExceptAnonymous",
+            "AllowParticipantGiveRequestControl": false,
+            "AllowExternalParticipantGiveRequestControl": false,
+            "AllowExternalNonTrustedMeetingChat": false,
+            "AllowCloudRecording": false
+          },
+          "remediateEnabled": false,
+          "alertEnabled": true,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "TeamsGuestAccess",
+          "instance": "TeamsGuestAccess",
+          "variables": {
+            "AllowGuestUser": true
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
           "alertOnRemediate": false
         },
         {
