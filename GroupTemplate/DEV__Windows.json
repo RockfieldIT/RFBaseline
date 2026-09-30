@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "83f424f5-9714-4ef4-af85-5b3f67c712e8",
   "JSON": "{\"displayName\":\"DEV - Windows\",\"description\":\"Dynamic device group for ALL Windows devices\",\"groupType\":\"dynamic\",\"membershipRules\":\"(device.deviceOSType -eq \\\"Windows\\\")\",\"allowExternal\":null,\"username\":null,\"licenses\":[],\"GUID\":\"83f424f5-9714-4ef4-af85-5b3f67c712e8\"}",
-  "SHA": "36f8893e8c644e0b5c1afe8e64545af2f8a9d032",
+  "SHA": "4dbbc31be6fd10bb11bc33cbd38c6c4f83982bfc",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/DEV__Windows.json"
 }
