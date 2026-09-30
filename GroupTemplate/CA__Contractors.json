@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "66aa36b1-4837-4022-afd1-5c1384c6a16f",
   "JSON": "{\"displayName\":\"CA - Contractors\",\"description\":\"Dynamic user group. The User Department field must contain the word Contractors for membership to be dynamically assigned.\",\"groupType\":\"dynamic\",\"membershipRules\":\"(user.department -eq \\\"Contractors\\\")\",\"allowExternal\":null,\"username\":null,\"licenses\":[],\"GUID\":\"66aa36b1-4837-4022-afd1-5c1384c6a16f\"}",
-  "SHA": "1442b25604aa009b76215c8ae792db698c4f2de4",
+  "SHA": "43215bfd55edef20aad937d7cb63b08a3899135a",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/CA__Contractors.json"
 }
