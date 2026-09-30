@@ -4,7 +4,7 @@
   "GUID": "aed7e678-01eb-4bff-983d-902c4039abd8",
   "JSON": "{\"displayName\":\"RF-CA05 - All Users - Require Compliant Device\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[\"All\"],\"excludeUsers\":[\"GuestsOrExternalUsers\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\",\"USR - Exclude\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"],\"platforms\":{\"includePlatforms\":[\"windows\",\"macOS\"]}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"compliantDevice\"]},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
   "Package": "RF-CA-B365G",
-  "SHA": "dd809c45aa1a42403b850456942b67c12dd31c47",
-  "Source": "RockfieldIT/B365G-CA_Policies",
+  "SHA": "a4ad0bfe818415e4a1c03dd7bb38956c46bafaef",
+  "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA05__All_Users__Require_Compliant_Device.json"
 }
