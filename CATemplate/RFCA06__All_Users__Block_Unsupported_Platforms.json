@@ -4,7 +4,7 @@
   "GUID": "8fcac770-f7b0-44e1-b2e8-f05223225fa2",
   "JSON": "{\"displayName\":\"RF-CA06 - All Users - Block Unsupported Platforms\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"],\"platforms\":{\"excludePlatforms\":[\"android\",\"iOS\",\"windows\",\"macOS\"]}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"block\"]},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
   "Package": "RF-CA-B365G",
-  "SHA": "eef707849b512427893aaa93f75b70644de818a0",
+  "SHA": "c758e4b578ce9933ac2db0f0a8f21746be5aae42",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA06__All_Users__Block_Unsupported_Platforms.json"
 }
