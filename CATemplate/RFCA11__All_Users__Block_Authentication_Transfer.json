@@ -4,7 +4,7 @@
   "GUID": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36",
   "JSON": "{\"displayName\":\"RF-CA11 - All Users - Block Authentication Transfer\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"],\"authenticationFlows\":{\"transferMethods\":\"authenticationTransfer\"}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"block\"]},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
   "Package": "RF-CA-B365G",
-  "SHA": "438cc6a0b249da661797f01a52011e0573c63669",
+  "SHA": "10ad3aa11700c5b22eae8d2cd76d65e541cc1c5a",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA11__All_Users__Block_Authentication_Transfer.json"
 }
