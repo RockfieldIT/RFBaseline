@@ -1,7 +1,7 @@
 {
   "TemplateType": "BaselineTemplate",
-  "templateName": ".RF - 5 Stage Baseline",
-  "description": "description",
+  "templateName": "RF - 5 Stage Baseline",
+  "description": "S0 to S4",
   "assignedTenants": [
     {
       "label": "Exported Template",
@@ -1195,11 +1195,6 @@
       "name": "S1 Foundation",
       "logic": "and",
       "conditions": [
-        {
-          "type": "time",
-          "days": 7,
-          "unit": "days"
-        },
         {
           "type": "group",
           "unit": "days",
