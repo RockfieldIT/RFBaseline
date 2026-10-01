@@ -4,7 +4,7 @@
   "GUID": "39062d9e-9c21-461f-bab2-65d97c152287",
   "JSON": "{\"displayName\":\"RF-CA19 - All Users - Require MFA to Register or Join Devices\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[],\"includeUserActions\":[\"urn:user:registerdevice\"]},\"clientAppTypes\":[\"all\"]},\"grantControls\":{\"operator\":\"OR\",\"authenticationStrength\":{\"id\":\"00000000-0000-0000-0000-000000000002\"}},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
   "Package": "RF-CA-B365G",
-  "SHA": "6fd559f81ff176b93ec7cf7d9c2cf6119e2c544d",
+  "SHA": "b559c4d38478d4dbd9966e45fa107af04a079993",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA19__All_Users__Require_MFA_to_Register_or_Join_Devices.json"
 }
