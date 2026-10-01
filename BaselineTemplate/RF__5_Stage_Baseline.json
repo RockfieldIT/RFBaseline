@@ -1227,19 +1227,6 @@
           "alertOnRemediate": false
         },
         {
-          "standard": "ConditionalAccessTemplate",
-          "instance": "ConditionalAccessTemplate#af4d9344",
-          "variables": {
-            "caTemplate": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0",
-            "state": "enabled",
-            "disableSD": false,
-            "createGroups": false
-          },
-          "remediateEnabled": true,
-          "alertEnabled": false,
-          "alertOnRemediate": false
-        },
-        {
           "standard": "DefaultPlatformRestrictions",
           "instance": "DefaultPlatformRestrictions",
           "variables": {
