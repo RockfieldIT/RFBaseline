@@ -4,7 +4,7 @@
   "GUID": "7c001014-c117-44b4-b0ac-509cb642a52f",
   "JSON": "{\"displayName\":\"RF-CA07 - All Users - Session Controls\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"all\"],\"applications\":{\"includeApplications\":[\"All\"]},\"users\":{\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}},\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"]},\"devices\":{\"deviceFilter\":{\"mode\":\"exclude\",\"rule\":\"device.isCompliant -eq True\"}}},\"sessionControls\":{\"signInFrequency\":{\"value\":7,\"type\":\"days\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true},\"persistentBrowser\":{\"mode\":\"never\",\"isEnabled\":true}},\"isSynced\":false}",
   "Package": "RF-CA-B365G",
-  "SHA": "96afa519a31c8cc5eaa549319e6ee29a219a8a5b",
+  "SHA": "08c7d6a89d757e4813d40f191838626d2a3eabdd",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA07__All_Users__Session_Controls.json"
 }
