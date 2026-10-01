@@ -4,7 +4,7 @@
   "GUID": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0",
   "JSON": "{\"displayName\":\"RF-CA03 - Breakglass - Require Phish Resistant MFA\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[],\"includeGroups\":[\"CA - Breakglass Admins\"],\"excludeUsers\":[\"GuestsOrExternalUsers\"],\"excludeGroups\":[\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"]},\"grantControls\":{\"operator\":\"OR\",\"authenticationStrength\":{\"id\":\"00000000-0000-0000-0000-000000000004\"}},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
   "Package": "RF-CA-B365G",
-  "SHA": "1849487c3df2f71b0a6715c4d8fd38857a669dbd",
+  "SHA": "d48fa8ac31195e729d6bf9c1ae7fd72892c6ba4b",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA03__Breakglass__Require_Phish_Resistant_MFA.json"
 }
