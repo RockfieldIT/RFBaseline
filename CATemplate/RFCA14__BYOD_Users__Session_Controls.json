@@ -4,7 +4,7 @@
   "GUID": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
   "JSON": "{\"displayName\":\"RF-CA14 - BYOD Users - Session Controls\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"all\"],\"applications\":{\"includeApplications\":[\"All\"]},\"users\":{\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}},\"excludeUsers\":[],\"includeGroups\":[\"USR-BYOD\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"]}},\"sessionControls\":{\"signInFrequency\":{\"value\":12,\"type\":\"hours\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true},\"persistentBrowser\":{\"mode\":\"never\",\"isEnabled\":true}},\"source\":\"RockfieldIT/CIPP-RF-B365G\",\"isSynced\":true}",
   "Package": "RF-CA-B365G",
-  "SHA": "e6665572d2b7fd32f01df4096502ffd072e9b7b0",
+  "SHA": "541314bdd777af28340a2b73abffabbf3fdc2465",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA14__BYOD_Users__Session_Controls.json"
 }
