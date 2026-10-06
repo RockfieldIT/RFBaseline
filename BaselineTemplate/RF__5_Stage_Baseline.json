@@ -1,7 +1,7 @@
 {
   "TemplateType": "BaselineTemplate",
   "templateName": "RF - 5 Stage Baseline",
-  "description": "S0 to S4",
+  "description": "S1 to S5",
   "assignedTenants": [
     {
       "label": "Exported Template",
@@ -15,7 +15,7 @@
   "disableAlerts": false,
   "stages": [
     {
-      "name": "S0 Observe",
+      "name": "S1 Observe",
       "logic": "and",
       "conditions": [],
       "standards": [
@@ -1192,7 +1192,7 @@
       ]
     },
     {
-      "name": "S1 Foundation",
+      "name": "S2 Foundation",
       "logic": "and",
       "conditions": [
         {
@@ -1413,6 +1413,235 @@
             "MarkAsSpamSensitiveWordList": false,
             "EnableLanguageBlockList": false,
             "EnableRegionBlockList": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        }
+      ]
+    },
+    {
+      "name": "S3 Identity & Mail",
+      "logic": "and",
+      "conditions": [
+        {
+          "type": "group",
+          "unit": "days",
+          "group": "926da925-cc00-4379-8786-1c36962e7ae1",
+          "groupName": "RF Baseline S2"
+        }
+      ],
+      "standards": [
+        {
+          "standard": "AuthenticationMethods",
+          "instance": "AuthenticationMethods",
+          "variables": {
+            "MicrosoftAuthenticatorEnabled": true,
+            "MicrosoftAuthenticatorGroup": "",
+            "FIDO2Enabled": true,
+            "FIDO2Group": "",
+            "TAPEnabled": true,
+            "TAPGroup": "",
+            "SoftwareOathEnabled": true,
+            "SoftwareOathGroup": "",
+            "HardwareOathEnabled": true,
+            "HardwareOathGroup": "",
+            "SMSEnabled": false,
+            "SMSGroup": "",
+            "VoiceEnabled": false,
+            "VoiceGroup": "",
+            "EmailEnabled": "notConfigured",
+            "EmailGroup": "",
+            "x509CertificateEnabled": false,
+            "x509CertificateGroup": "",
+            "QRCodePinEnabled": false,
+            "QRCodePinGroup": "",
+            "EmailExcludeGroup": "",
+            "MicrosoftAuthenticatorSoftwareOath": true,
+            "MicrosoftAuthenticatorDisplayAppInfo": "enabled",
+            "MicrosoftAuthenticatorDisplayLocation": "enabled",
+            "MicrosoftAuthenticatorCompanionApp": "default",
+            "TAPDefaultLifetime": 60,
+            "TAPMinLifetime": 60,
+            "TAPMaxLifetime": 480,
+            "TAPDefaultLength": 8,
+            "QRCodeLifetimeInDays": null,
+            "QRCodePinLength": null,
+            "TAPUsableOnce": "true",
+            "EmailAllowExternalIdToUseEmailOtp": "enabled"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "AuthMethodsPolicyMigration",
+          "instance": "AuthMethodsPolicyMigration",
+          "variables": {
+            "migrationState": "migrationComplete"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#5982cec5",
+          "variables": {
+            "caTemplate": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
+            "state": "enabled",
+            "disableSD": true,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#7de25ec8",
+          "variables": {
+            "caTemplate": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36",
+            "state": "enabled",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#7df4d9ec",
+          "variables": {
+            "caTemplate": "39062d9e-9c21-461f-bab2-65d97c152287",
+            "state": "enabled",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#8d63c123",
+          "variables": {
+            "caTemplate": "286024bb-4869-44f6-b1c5-a02e068ae28c",
+            "state": "enabled",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#93fd5394",
+          "variables": {
+            "caTemplate": "14df7729-bb8b-4248-9134-8c03f70f9e04",
+            "state": "enabled",
+            "disableSD": true,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#af4d9344",
+          "variables": {
+            "caTemplate": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0",
+            "state": "enabled",
+            "disableSD": true,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#ca354fdf",
+          "variables": {
+            "caTemplate": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
+            "state": "enabled",
+            "disableSD": true,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#dbb071b5",
+          "variables": {
+            "caTemplate": "a6963551-2008-4528-afab-59a38ec35327",
+            "state": "enabled",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#e28ec47b",
+          "variables": {
+            "caTemplate": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b",
+            "state": "enabled",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableBasicAuthSMTP",
+          "instance": "DisableBasicAuthSMTP",
+          "variables": {
+            "disabled": true
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableSharedMailbox",
+          "instance": "DisableSharedMailbox",
+          "variables": {},
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "DisableSharePointLegacyAuth",
+          "instance": "DisableSharePointLegacyAuth",
+          "variables": {
+            "legacyAuthEnabled": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "EmptyFilterIPAllowList",
+          "instance": "EmptyFilterIPAllowList",
+          "variables": {},
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "EXODisableAutoForwarding",
+          "instance": "EXODisableAutoForwarding",
+          "variables": {
+            "autoForwardingMode": "Off"
           },
           "remediateEnabled": true,
           "alertEnabled": false,
