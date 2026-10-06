@@ -4,7 +4,7 @@
   "GUID": "af16ff5e-a2de-425b-912c-a99f1a8af41d",
   "JSON": "{\"displayName\":\"RF-CA13 - BYOD Users - Block Desktop Apps\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeGroups\":[\"USR-BYOD\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"mobileAppsAndDesktopClients\"],\"devices\":{\"deviceFilter\":{\"mode\":\"include\",\"rule\":\"device.isCompliant -ne True\"}}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"block\"]},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
   "Package": "RF-CA-B365G",
-  "SHA": "69c0a21bcc6e066db59d432f0a10bb1701f23398",
+  "SHA": "d2392a8b7cdad21b899218fe422b0071cde6fd99",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA13__BYOD_Users__Block_Desktop_Apps.json"
 }
