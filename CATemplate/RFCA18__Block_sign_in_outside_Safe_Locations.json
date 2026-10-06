@@ -3,7 +3,7 @@
   "RowKey": "286024bb-4869-44f6-b1c5-a02e068ae28c",
   "GUID": "286024bb-4869-44f6-b1c5-a02e068ae28c",
   "JSON": "{\"displayName\":\"RF-CA18 - Block sign in outside Safe Locations\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}},\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - JIT Admins\",\"CA - Temp Admins\"]},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"],\"locations\":{\"includeLocations\":[\"All\"],\"excludeLocations\":[\"Ireland\",\"UK\"]}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"block\"]},\"LocationInfo\":[{\"@odata.type\":\"#microsoft.graph.countryNamedLocation\",\"displayName\":\"Ireland\",\"countriesAndRegions\":[\"IE\"],\"includeUnknownCountriesAndRegions\":false,\"countryLookupMethod\":\"clientIpAddress\"},{\"@odata.type\":\"#microsoft.graph.countryNamedLocation\",\"displayName\":\"UK\",\"countriesAndRegions\":[\"GB\"],\"includeUnknownCountriesAndRegions\":false,\"countryLookupMethod\":\"clientIpAddress\"}]}",
-  "SHA": "33bc5ccd29ebfc69cec29cd273573a1d8d62ab0c",
+  "SHA": "ffc4f44ea0f334361445836a25ee7e1265355f3f",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA18__Block_sign_in_outside_Safe_Locations.json"
 }
