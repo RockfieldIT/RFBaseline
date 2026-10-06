@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "0404318c-3135-499c-92ea-75185533f9e6",
   "JSON": "{\"displayName\":\"CA - Temp Admins\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":[],\"aliases\":null,\"hideFromGAL\":null,\"GUID\":\"0404318c-3135-499c-92ea-75185533f9e6\"}",
-  "SHA": "82b510beebc14fe35f0d38d23db69056e1e6424e",
+  "SHA": "c88db862433ad3193e4b762879ecd82a243cc1d7",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/CA__Temp_Admins.json"
 }
