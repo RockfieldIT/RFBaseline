@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "9f58a179-bfa4-4b92-93c5-4fd6087e44c1",
   "JSON": "{\"displayName\":\"DEV - Windows 11\",\"description\":\"Dynamic device group for Windows 11 devices only\",\"groupType\":\"dynamic\",\"membershipRules\":\"(device.deviceOSVersion -startsWith \\\"10.0.2\\\") or (device.deviceOSVersion -startsWith \\\"10.0 (2)\\\")\",\"allowExternal\":null,\"username\":null,\"licenses\":[],\"GUID\":\"9f58a179-bfa4-4b92-93c5-4fd6087e44c1\"}",
-  "SHA": "92dc472330335d88b5fd4b68e5acf67230c2ca69",
+  "SHA": "d00c8dcc6be510338ca07dc43740cdae4b56cbbc",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/DEV__Windows_11.json"
 }
