@@ -3,8 +3,6 @@
   "RowKey": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
   "GUID": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
   "JSON": "{\"displayName\":\"RF-CA01 - All Users - Block Legacy Auth\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"exchangeActiveSync\",\"other\"]},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"block\"]},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
-  "Package": "RF-CA-B365G",
-  "SHA": "98cd732dee04891b7756673ce13f2214df36958b",
-  "Source": "RockfieldIT/RFBaseline",
-  "SourcePath": "CATemplate/RFCA01__All_Users__Block_Legacy_Auth.json"
+  "SHA": "e60c4bca3263f4d6f8aa98d143cd673cd52e0910",
+  "Source": "RockfieldIT/RFBaseline"
 }
