@@ -3,8 +3,6 @@
   "RowKey": "198e9c44-f794-4dd5-a230-6be1799a8122",
   "GUID": "198e9c44-f794-4dd5-a230-6be1799a8122",
   "JSON": "{\"displayName\":\"RF-CA09 - All Users - Windows Token Protection\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"mobileAppsAndDesktopClients\"],\"applications\":{\"includeApplications\":[\"cc15fd57-2c6c-4117-a88c-83b1d56b4bbe\",\"00000002-0000-0ff1-ce00-000000000000\",\"00000003-0000-0ff1-ce00-000000000000\"]},\"users\":{\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}},\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"]},\"platforms\":{\"includePlatforms\":[\"windows\"]}},\"sessionControls\":{\"secureSignInSession\":{\"isEnabled\":true}},\"isSynced\":false}",
-  "Package": "RF-CA-B365G",
-  "SHA": "958343fabb9126b1557be93e9dd58e0172ea5625",
-  "Source": "RockfieldIT/RFBaseline",
-  "SourcePath": "CATemplate/RFCA09__All_Users__Windows_Token_Protection.json"
+  "SHA": "45df8707a4d4ce7cc7d9bbe1cf5657d76a511de0",
+  "Source": "RockfieldIT/RFBaseline"
 }
