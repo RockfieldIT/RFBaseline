@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "f270edf9-f575-4245-8b83-f882964a2a82",
   "JSON": "{\n  \"displayName\": \"CA - Working Abroad\",\n  \"description\": \"Staff whose usage location is outside Ireland and the UK. Excluded from RF-CA18; RF-CA18A holds them to the tenant's approved countries.\",\n  \"groupType\": \"dynamic\",\n  \"membershipRules\": \"(user.userType -eq \\\"Member\\\") -and (user.usageLocation -ne null) -and (user.usageLocation -ne \\\"IE\\\") -and (user.usageLocation -ne \\\"GB\\\")\",\n  \"allowExternal\": null,\n  \"username\": null,\n  \"licenses\": null,\n  \"aliases\": null,\n  \"hideFromGAL\": null,\n  \"GUID\": \"f270edf9-f575-4245-8b83-f882964a2a82\"\n}",
-  "SHA": "3507f0053e9d9a2d39a6d452b223dd586ec4130f",
+  "SHA": "6ff426f25d5033060e72676c78ec6d133581b18b",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/CA__Working_Abroad.json"
 }
