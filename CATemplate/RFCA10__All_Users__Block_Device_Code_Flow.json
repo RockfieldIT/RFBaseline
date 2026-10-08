@@ -3,7 +3,7 @@
   "RowKey": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b",
   "GUID": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b",
   "JSON": "{\"displayName\":\"RF-CA10 - All Users - Block Device Code Flow\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[\"All\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"],\"authenticationFlows\":{\"transferMethods\":\"deviceCodeFlow\"}},\"grantControls\":{\"operator\":\"AND\",\"builtInControls\":[\"block\"]},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
-  "SHA": "5a190a2d1f58cf890cf681c4d41feba0b3f14982",
+  "SHA": "eba7ab1ae012477220913ba82b7b5176217fd916",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA10__All_Users__Block_Device_Code_Flow.json"
 }
