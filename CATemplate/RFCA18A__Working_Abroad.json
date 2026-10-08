@@ -3,7 +3,7 @@
   "RowKey": "736d453a-717d-45a3-8da1-f943544a91fb",
   "GUID": "736d453a-717d-45a3-8da1-f943544a91fb",
   "JSON": "{\"displayName\":\"RF-CA18A - Working Abroad\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeGroups\":[\"CA - Working Abroad\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - JIT Admins\",\"CA - Temp Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"],\"locations\":{\"includeLocations\":[\"All\"],\"excludeLocations\":[\"RF Approved Countries\"]}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"block\"]},\"LocationInfo\":[{\"@odata.type\":\"#microsoft.graph.countryNamedLocation\",\"displayName\":\"RF Approved Countries\",\"countriesAndRegions\":\"%RFApprovedCountries%\",\"includeUnknownCountriesAndRegions\":false,\"countryLookupMethod\":\"clientIpAddress\"}]}",
-  "SHA": "d055165f7491dac9a24c9fa56f6fdf069a23e2e8",
+  "SHA": "31cdf25e8e5e48e291d7f2e3dda748086a8bbc8a",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA18A__Working_Abroad.json"
 }
