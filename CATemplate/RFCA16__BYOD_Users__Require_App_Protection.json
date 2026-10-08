@@ -3,7 +3,7 @@
   "RowKey": "2941ce97-615f-486a-be43-4ebc998282b2",
   "GUID": "2941ce97-615f-486a-be43-4ebc998282b2",
   "JSON": "{\"displayName\":\"RF-CA16 - BYOD Users - Require App Protection\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeGroups\":[\"USR-BYOD\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"],\"platforms\":{\"includePlatforms\":[\"android\",\"iOS\"]}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"compliantApplication\"]},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
-  "SHA": "bbdafff55f44ce3fa7d69cf53c24fbaa3ed947fc",
+  "SHA": "f510bbb6a5dee00d58073e8ba5f82c7be6c15d2d",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA16__BYOD_Users__Require_App_Protection.json"
 }
