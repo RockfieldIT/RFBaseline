@@ -215,6 +215,19 @@
         },
         {
           "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#4caec520",
+          "variables": {
+            "caTemplate": "736d453a-717d-45a3-8da1-f943544a91fb",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#5982cec5",
           "variables": {
             "caTemplate": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
@@ -843,6 +856,16 @@
           "instance": "GroupTemplate#509fe0e2",
           "variables": {
             "groupTemplate": "83f424f5-9714-4ef4-af85-5b3f67c712e8"
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "GroupTemplate",
+          "instance": "GroupTemplate#5498841f",
+          "variables": {
+            "groupTemplate": "f270edf9-f575-4245-8b83-f882964a2a82"
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -1564,6 +1587,19 @@
         },
         {
           "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#c41373d3",
+          "variables": {
+            "caTemplate": "736d453a-717d-45a3-8da1-f943544a91fb",
+            "state": "enabled",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#ca354fdf",
           "variables": {
             "caTemplate": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
@@ -1674,6 +1710,12 @@
       "guid": "af16ff5e-a2de-425b-912c-a99f1a8af41d",
       "displayName": "RF-CA13 - BYOD Users - Block Desktop Apps",
       "path": "CATemplate/RFCA13__BYOD_Users__Block_Desktop_Apps.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "736d453a-717d-45a3-8da1-f943544a91fb",
+      "displayName": "RF-CA18A - Working Abroad",
+      "path": "CATemplate/RFCA18A__Working_Abroad.json"
     },
     {
       "partition": "CATemplate",
@@ -1800,6 +1842,12 @@
       "guid": "83f424f5-9714-4ef4-af85-5b3f67c712e8",
       "displayName": "DEV - Windows",
       "path": "GroupTemplate/DEV__Windows.json"
+    },
+    {
+      "partition": "GroupTemplate",
+      "guid": "f270edf9-f575-4245-8b83-f882964a2a82",
+      "displayName": "CA - Working Abroad",
+      "path": "GroupTemplate/CA__Working_Abroad.json"
     },
     {
       "partition": "GroupTemplate",
