@@ -3,6 +3,7 @@
   "RowKey": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
   "GUID": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
   "JSON": "{\"displayName\":\"RF-CA12 - BYOD Users - Browser Only\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"browser\"],\"applications\":{\"includeApplications\":[\"00000003-0000-0ff1-ce00-000000000000\",\"00000002-0000-0ff1-ce00-000000000000\"]},\"users\":{\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}},\"includeGroups\":[\"USR-BYOD\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\"],\"excludeUsers\":[]},\"platforms\":{\"includePlatforms\":[\"windows\",\"macOS\"]},\"devices\":{\"deviceFilter\":{\"mode\":\"include\",\"rule\":\"device.isCompliant -ne True\"}}},\"sessionControls\":{\"applicationEnforcedRestrictions\":{\"isEnabled\":true}},\"isSynced\":false}",
-  "SHA": "6e82236b9e176459256716d40ae344ac5de50623",
-  "Source": "RockfieldIT/RFBaseline"
+  "SHA": "15cd3a71f05b9e51a6092646f4387355e98ae1b6",
+  "Source": "RockfieldIT/RFBaseline",
+  "SourcePath": "CATemplate/RFCA12__BYOD_Users__Browser_Only.json"
 }
