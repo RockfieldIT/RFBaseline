@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "bb95f70d-5edf-4adb-b208-d76dbb946a32",
   "JSON": "{\"displayName\":\"CA - Pilot Users\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"bb95f70d-5edf-4adb-b208-d76dbb946a32\"}",
-  "SHA": "b1047fed764827b628ca6f807a4a3b1bc1f64614",
+  "SHA": "b7b2f1158fa8cbc6a094b39b10eb2e022e16fb09",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/CA__Pilot_Users.json"
 }
