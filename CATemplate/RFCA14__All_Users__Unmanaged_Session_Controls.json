@@ -1,0 +1,9 @@
+{
+  "PartitionKey": "CATemplate",
+  "RowKey": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
+  "GUID": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
+  "JSON": "{\"displayName\":\"RF-CA14 - All Users - Unmanaged Session Controls\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"clientAppTypes\":[\"all\"],\"applications\":{\"includeApplications\":[\"All\"]},\"users\":{\"includeUsers\":[\"All\"],\"excludeUsers\":[\"GuestsOrExternalUsers\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\",\"USR - Exclude\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"devices\":{\"deviceFilter\":{\"mode\":\"include\",\"rule\":\"device.isCompliant -ne True -or device.deviceOwnership -ne \\\"Company\\\"\"}},\"platforms\":{\"includePlatforms\":[\"windows\",\"macOS\"]}},\"sessionControls\":{\"signInFrequency\":{\"value\":12,\"type\":\"hours\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true},\"persistentBrowser\":{\"mode\":\"never\",\"isEnabled\":true}},\"source\":\"RockfieldIT/CIPP-RF-B365G\",\"isSynced\":true}",
+  "SHA": "bbcd5cd2dbcfa1d2740110ff96e188694462406f",
+  "Source": "RockfieldIT/RFBaseline",
+  "SourcePath": "CATemplate/RFCA14__BYOD_Users__Session_Controls.json"
+}
