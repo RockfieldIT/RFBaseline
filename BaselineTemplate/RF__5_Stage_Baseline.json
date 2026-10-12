@@ -176,6 +176,19 @@
         },
         {
           "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#1aad2937",
+          "variables": {
+            "caTemplate": "abe5c636-5f44-4581-b21e-ebe1a6cf69e5",
+            "state": "enabledForReportingButNotEnforced",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#22ed143d",
           "variables": {
             "caTemplate": "8fcac770-f7b0-44e1-b2e8-f05223225fa2",
@@ -436,15 +449,15 @@
           "instance": "DefaultPlatformRestrictions",
           "variables": {
             "platformAndroidForWorkBlocked": false,
-            "personalAndroidForWorkBlocked": false,
+            "personalAndroidForWorkBlocked": true,
             "osMinimumVersionAndroidForWork": "",
             "osMaximumVersionAndroidForWork": "",
             "platformAndroidBlocked": true,
-            "personalAndroidBlocked": false,
+            "personalAndroidBlocked": true,
             "osMinimumVersionAndroid": "",
             "osMaximumVersionAndroid": "",
             "platformiOSBlocked": false,
-            "personaliOSBlocked": false,
+            "personaliOSBlocked": true,
             "osMinimumVersioniOS": "",
             "osMaximumVersioniOS": "",
             "platformMacOSBlocked": false,
@@ -1254,15 +1267,15 @@
           "instance": "DefaultPlatformRestrictions",
           "variables": {
             "platformAndroidForWorkBlocked": false,
-            "personalAndroidForWorkBlocked": false,
+            "personalAndroidForWorkBlocked": true,
             "osMinimumVersionAndroidForWork": "",
             "osMaximumVersionAndroidForWork": "",
             "platformAndroidBlocked": true,
-            "personalAndroidBlocked": false,
+            "personalAndroidBlocked": true,
             "osMinimumVersionAndroid": "",
             "osMaximumVersionAndroid": "",
             "platformiOSBlocked": false,
-            "personaliOSBlocked": false,
+            "personaliOSBlocked": true,
             "osMinimumVersioniOS": "",
             "osMaximumVersioniOS": "",
             "platformMacOSBlocked": false,
@@ -1509,6 +1522,19 @@
         },
         {
           "standard": "ConditionalAccessTemplate",
+          "instance": "ConditionalAccessTemplate#4ae9175e",
+          "variables": {
+            "caTemplate": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1",
+            "state": "enabled",
+            "disableSD": false,
+            "createGroups": false
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#5982cec5",
           "variables": {
             "caTemplate": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
@@ -1690,8 +1716,14 @@
     {
       "partition": "CATemplate",
       "guid": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
-      "displayName": "RF-CA14 - BYOD Users - Session Controls",
-      "path": "CATemplate/RFCA14__BYOD_Users__Session_Controls.json"
+      "displayName": "RF-CA14 - All Users - Unmanaged Session Controls",
+      "path": "CATemplate/RFCA14__All_Users__Unmanaged_Session_Controls.json"
+    },
+    {
+      "partition": "CATemplate",
+      "guid": "abe5c636-5f44-4581-b21e-ebe1a6cf69e5",
+      "displayName": "RF-CA05A - All Users - Unmanaged Browser Microsoft 365 Only",
+      "path": "CATemplate/RFCA05A__All_Users__Unmanaged_Browser_Microsoft_365_Only.json"
     },
     {
       "partition": "CATemplate",
@@ -1702,8 +1734,8 @@
     {
       "partition": "CATemplate",
       "guid": "af16ff5e-a2de-425b-912c-a99f1a8af41d",
-      "displayName": "RF-CA13 - BYOD Users - Block Desktop Apps",
-      "path": "CATemplate/RFCA13__BYOD_Users__Block_Desktop_Apps.json"
+      "displayName": "RF-CA13 - All Users - Unmanaged Block Desktop Apps",
+      "path": "CATemplate/RFCA13__All_Users__Unmanaged_Block_Desktop_Apps.json"
     },
     {
       "partition": "CATemplate",
@@ -1756,8 +1788,8 @@
     {
       "partition": "CATemplate",
       "guid": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1",
-      "displayName": "RF-CA15 - BYOD Users - Require TAP for MFA Registration",
-      "path": "CATemplate/RFCA15__BYOD_Users__Require_TAP_for_MFA_Registration.json"
+      "displayName": "RF-CA15 - All Users - Require MFA or TAP to Register MFA",
+      "path": "CATemplate/RFCA15__All_Users__Require_MFA_or_TAP_to_Register_MFA.json"
     },
     {
       "partition": "CATemplate",
@@ -1774,8 +1806,8 @@
     {
       "partition": "CATemplate",
       "guid": "2941ce97-615f-486a-be43-4ebc998282b2",
-      "displayName": "RF-CA16 - BYOD Users - Require App Protection",
-      "path": "CATemplate/RFCA16__BYOD_Users__Require_App_Protection.json"
+      "displayName": "RF-CA16 - All Users - Mobile Require App Protection",
+      "path": "CATemplate/RFCA16__All_Users__Mobile_Require_App_Protection.json"
     },
     {
       "partition": "CATemplate",
@@ -1792,8 +1824,8 @@
     {
       "partition": "CATemplate",
       "guid": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
-      "displayName": "RF-CA12 - BYOD Users - Browser Only",
-      "path": "CATemplate/RFCA12__BYOD_Users__Browser_Only.json"
+      "displayName": "RF-CA12 - All Users - Unmanaged Browser No Downloads",
+      "path": "CATemplate/RFCA12__All_Users__Unmanaged_Browser_No_Downloads.json"
     },
     {
       "partition": "CATemplate",
