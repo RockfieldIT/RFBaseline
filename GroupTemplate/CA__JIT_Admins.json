@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "cd9556e2-09d6-40da-a38c-aa37c253def4",
   "JSON": "{\"displayName\":\"CA - JIT Admins\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"cd9556e2-09d6-40da-a38c-aa37c253def4\"}",
-  "SHA": "0ebba2460305f0591303fcbf63230d879babcd67",
+  "SHA": "99ce869947bf6f4af479375b494bc2e22e9db2d8",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/CA__JIT_Admins.json"
 }
