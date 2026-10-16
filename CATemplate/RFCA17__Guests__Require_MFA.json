@@ -3,7 +3,7 @@
   "RowKey": "a6963551-2008-4528-afab-59a38ec35327",
   "GUID": "a6963551-2008-4528-afab-59a38ec35327",
   "JSON": "{\"displayName\":\"RF-CA17 - Guests - Require MFA\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[],\"includeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"internalGuest,b2bCollaborationGuest,b2bCollaborationMember,b2bDirectConnectUser,otherExternalUser\",\"externalTenants\":{\"@odata.type\":\"#microsoft.graph.conditionalAccessAllExternalTenants\",\"membershipKind\":\"all\"}},\"excludeGroups\":[\"CA - Breakglass Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"]},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"mfa\"]},\"sessionControls\":{\"disableResilienceDefaults\":false,\"signInFrequency\":{\"value\":1,\"type\":\"days\",\"authenticationType\":\"primaryAndSecondaryAuthentication\",\"frequencyInterval\":\"timeBased\",\"isEnabled\":true}},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
-  "SHA": "971442b1cfa29d3a1016cab9b5828d2b6953890b",
+  "SHA": "0ec1a0fcbddc59f8abb7bbbc4944225a2b3aca30",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA17__Guests__Require_MFA.json"
 }
