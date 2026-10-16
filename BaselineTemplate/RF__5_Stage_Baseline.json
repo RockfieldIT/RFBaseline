@@ -1490,6 +1490,426 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#02b57432",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - SC - Device Security - D - Config Refresh - v3.2",
+              "value": "90571bbb-ee3c-49a3-a8bd-e0f86f9ce07d"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#256b4d82",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - RF - SC - Defender Antivirus - D - Agent Exclusions - v1.0",
+              "value": "be55d2ad-201e-426a-8e11-88d5536cf337"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#29a9320e",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - SC - Windows User Experience - D - Settings Sync - v3.7",
+              "value": "540213c2-7378-49f3-b5cf-0e7ec874ac90"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#2c15b4de",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - ES - Windows LAPS - D - LAPS Configuration - v4.0",
+              "value": "d41da2e4-01d8-4f19-aaa5-fbcdf7f52851"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#465481d7",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Device Security - U - Antivirus - v4.0",
+              "value": "82ea8c68-0282-4141-8a34-8b51a34c1b2e"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#4e2358da",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - ES - Defender Antivirus Updates - Ring 3 - Production - v3.4",
+              "value": "25e8e7ce-5ee4-4bc9-b4de-88129e46f534"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Pilot, DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#88146f0e",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Defender - U - Real-Time Protection - v4.0",
+              "value": "8b035b62-a9fe-4e77-a275-5bd991e63aa4"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#b20d8d27",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - ES - Defender Antivirus - D - Security Experience - v4.0",
+              "value": "2f21d034-3c10-4504-8d63-523842a659e0"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#b3337972",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (Audit Mode) - v3.1",
+              "value": "c84a0d10-0ae8-4cbf-aee6-aaf2bf4de327"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#b3493517",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Device Security - U - Antispyware - v4.0",
+              "value": "64fa5622-c28b-4b6d-a2fb-7e7871693aab"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#bc51e507",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Device Health - U - SecureBoot - v4.0",
+              "value": "037c8090-9b7c-453d-83ff-cac7faf75985"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#c8f9bf07",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Device Health - U - Code Integrity - v4.0",
+              "value": "b21d0452-6b3a-461e-88b1-b870070e4b7f"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#c9ef313c",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - ES - Defender Antivirus Updates - Ring 1 - Pilot - v3.4",
+              "value": "ffdf8299-06c6-4fae-9294-b289fe4f9a59"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Pilot",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#cc06bea5",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Defender - U - Security Intelligence - v4.0",
+              "value": "c79c5851-3528-48b2-8826-89ec1a8533ac"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#ce9cf0c7",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - RF - ES - Defender Antivirus - D - AV Configuration - v4.0",
+              "value": "03b59c32-3ba2-42a3-830a-c7b4b90d878d"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#e11b355f",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - TP - Health Monitoring - D - Endpoint Analytics - v3.4",
+              "value": "10dc7fba-545e-43e0-be14-38aa5b61174e"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#e3146ada",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - SC - Defender Antivirus - D - Additional Configuration - v4.0",
+              "value": "15a4b7db-54f7-40b8-bd7b-6fe4d1e3b31e"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#e3bcefb4",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - RF - SC - Windows Update for Business - D - Reports and Telemetry - v3.0",
+              "value": "8a4e162c-0e2f-4012-8fda-3e8fcd3f5f5b"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "DEV - Windows",
+            "excludeGroup": "DEV - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#e6f26758",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Device Security - U - TPM - v4.0",
+              "value": "6167b32a-6bf7-4e18-bc2b-e05b0f661bdf"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#ec3d65de",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Device Security - U - Firewall - v4.0",
+              "value": "7e146f5f-0e51-4c64-aa58-80996806931c"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#f827b7d0",
+          "variables": {
+            "intuneTemplate": {
+              "label": "Win - OIB - CP - Device Health - U - BitLocker - v4.0",
+              "value": "13b73ccf-a032-4f3a-be52-48b776717b43"
+            },
+            "assignTo": "customGroup",
+            "customGroup": "USR - All",
+            "excludeGroup": "USR - Exclude",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": true,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "MDMScope",
           "instance": "MDMScope",
           "variables": {
@@ -2078,6 +2498,132 @@
       "guid": "c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7",
       "displayName": "CA - Breakglass Admins",
       "path": "GroupTemplate/CA__Breakglass_Admins.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "90571bbb-ee3c-49a3-a8bd-e0f86f9ce07d",
+      "displayName": "Win - OIB - SC - Device Security - D - Config Refresh - v3.2",
+      "path": "IntuneTemplate/Win__OIB__SC__Device_Security__D__Config_Refresh__v32.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "be55d2ad-201e-426a-8e11-88d5536cf337",
+      "displayName": "Win - RF - SC - Defender Antivirus - D - Agent Exclusions - v1.0",
+      "path": "IntuneTemplate/Win__RF__SC__Defender_Antivirus__D__Agent_Exclusions__v10.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "540213c2-7378-49f3-b5cf-0e7ec874ac90",
+      "displayName": "Win - OIB - SC - Windows User Experience - D - Settings Sync - v3.7",
+      "path": "IntuneTemplate/Win__OIB__SC__Windows_User_Experience__D__Settings_Sync__v37.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "d41da2e4-01d8-4f19-aaa5-fbcdf7f52851",
+      "displayName": "Win - OIB - ES - Windows LAPS - D - LAPS Configuration - v4.0",
+      "path": "IntuneTemplate/Win__OIB__ES__Windows_LAPS__D__LAPS_Configuration__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "82ea8c68-0282-4141-8a34-8b51a34c1b2e",
+      "displayName": "Win - OIB - CP - Device Security - U - Antivirus - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Device_Security__U__Antivirus__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "25e8e7ce-5ee4-4bc9-b4de-88129e46f534",
+      "displayName": "Win - OIB - ES - Defender Antivirus Updates - Ring 3 - Production - v3.4",
+      "path": "IntuneTemplate/Win__OIB__ES__Defender_Antivirus_Updates__Ring_3__Production__v34.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "8b035b62-a9fe-4e77-a275-5bd991e63aa4",
+      "displayName": "Win - OIB - CP - Defender - U - Real-Time Protection - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Defender__U__RealTime_Protection__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "2f21d034-3c10-4504-8d63-523842a659e0",
+      "displayName": "Win - OIB - ES - Defender Antivirus - D - Security Experience - v4.0",
+      "path": "IntuneTemplate/Win__OIB__ES__Defender_Antivirus__D__Security_Experience__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "c84a0d10-0ae8-4cbf-aee6-aaf2bf4de327",
+      "displayName": "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (Audit Mode) - v3.1",
+      "path": "IntuneTemplate/Win__OIB__ES__Attack_Surface_Reduction__D__ASR_Rules_Audit_Mode__v31.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "64fa5622-c28b-4b6d-a2fb-7e7871693aab",
+      "displayName": "Win - OIB - CP - Device Security - U - Antispyware - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Device_Security__U__Antispyware__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "037c8090-9b7c-453d-83ff-cac7faf75985",
+      "displayName": "Win - OIB - CP - Device Health - U - SecureBoot - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Device_Health__U__SecureBoot__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "b21d0452-6b3a-461e-88b1-b870070e4b7f",
+      "displayName": "Win - OIB - CP - Device Health - U - Code Integrity - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Device_Health__U__Code_Integrity__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "ffdf8299-06c6-4fae-9294-b289fe4f9a59",
+      "displayName": "Win - OIB - ES - Defender Antivirus Updates - Ring 1 - Pilot - v3.4",
+      "path": "IntuneTemplate/Win__OIB__ES__Defender_Antivirus_Updates__Ring_1__Pilot__v34.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "c79c5851-3528-48b2-8826-89ec1a8533ac",
+      "displayName": "Win - OIB - CP - Defender - U - Security Intelligence - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Defender__U__Security_Intelligence__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "03b59c32-3ba2-42a3-830a-c7b4b90d878d",
+      "displayName": "Win - RF - ES - Defender Antivirus - D - AV Configuration - v4.0",
+      "path": "IntuneTemplate/Win__RF__ES__Defender_Antivirus__D__AV_Configuration__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "10dc7fba-545e-43e0-be14-38aa5b61174e",
+      "displayName": "Win - OIB - TP - Health Monitoring - D - Endpoint Analytics - v3.4",
+      "path": "IntuneTemplate/Win__OIB__TP__Health_Monitoring__D__Endpoint_Analytics__v34.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "15a4b7db-54f7-40b8-bd7b-6fe4d1e3b31e",
+      "displayName": "Win - OIB - SC - Defender Antivirus - D - Additional Configuration - v4.0",
+      "path": "IntuneTemplate/Win__OIB__SC__Defender_Antivirus__D__Additional_Configuration__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "8a4e162c-0e2f-4012-8fda-3e8fcd3f5f5b",
+      "displayName": "Win - RF - SC - Windows Update for Business - D - Reports and Telemetry - v3.0",
+      "path": "IntuneTemplate/Win__RF__SC__Windows_Update_for_Business__D__Reports_and_Telemetry__v30.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "6167b32a-6bf7-4e18-bc2b-e05b0f661bdf",
+      "displayName": "Win - OIB - CP - Device Security - U - TPM - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Device_Security__U__TPM__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "7e146f5f-0e51-4c64-aa58-80996806931c",
+      "displayName": "Win - OIB - CP - Device Security - U - Firewall - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Device_Security__U__Firewall__v40.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "13b73ccf-a032-4f3a-be52-48b776717b43",
+      "displayName": "Win - OIB - CP - Device Health - U - BitLocker - v4.0",
+      "path": "IntuneTemplate/Win__OIB__CP__Device_Health__U__BitLocker__v40.json"
     }
   ]
 }
