@@ -165,7 +165,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#1a78931f",
           "variables": {
-            "caTemplate": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59",
+            "caTemplate": {
+              "label": "RF-CA14 - All Users - Unmanaged Session Controls",
+              "value": "2eed18c3-55f0-41a4-8e75-2e29a3c1ef59"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -178,7 +181,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#1aad2937",
           "variables": {
-            "caTemplate": "abe5c636-5f44-4581-b21e-ebe1a6cf69e5",
+            "caTemplate": {
+              "label": "RF-CA05A - All Users - Unmanaged Browser Microsoft 365 Only",
+              "value": "abe5c636-5f44-4581-b21e-ebe1a6cf69e5"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -191,7 +197,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#22ed143d",
           "variables": {
-            "caTemplate": "8fcac770-f7b0-44e1-b2e8-f05223225fa2",
+            "caTemplate": {
+              "label": "RF-CA06 - All Users - Block Unsupported Platforms",
+              "value": "8fcac770-f7b0-44e1-b2e8-f05223225fa2"
+            },
             "state": "donotchange",
             "disableSD": false,
             "createGroups": false
@@ -204,7 +213,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#485ee0e5",
           "variables": {
-            "caTemplate": "af16ff5e-a2de-425b-912c-a99f1a8af41d",
+            "caTemplate": {
+              "label": "RF-CA13 - All Users - Unmanaged Block Desktop Apps",
+              "value": "af16ff5e-a2de-425b-912c-a99f1a8af41d"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -217,7 +229,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#4caec520",
           "variables": {
-            "caTemplate": "736d453a-717d-45a3-8da1-f943544a91fb",
+            "caTemplate": {
+              "label": "RF-CA18A - Working Abroad",
+              "value": "736d453a-717d-45a3-8da1-f943544a91fb"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -230,7 +245,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#5982cec5",
           "variables": {
-            "caTemplate": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
+            "caTemplate": {
+              "label": "RF-CA01 - All Users - Block Legacy Auth",
+              "value": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef"
+            },
             "state": "donotchange",
             "disableSD": false,
             "createGroups": false
@@ -243,7 +261,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#5ba5fbc1",
           "variables": {
-            "caTemplate": "198e9c44-f794-4dd5-a230-6be1799a8122",
+            "caTemplate": {
+              "label": "RF-CA09 - All Users - Windows Token Protection",
+              "value": "198e9c44-f794-4dd5-a230-6be1799a8122"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -256,7 +277,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#608ee116",
           "variables": {
-            "caTemplate": "aed7e678-01eb-4bff-983d-902c4039abd8",
+            "caTemplate": {
+              "label": "RF-CA05 - All Users - Require Compliant Device",
+              "value": "aed7e678-01eb-4bff-983d-902c4039abd8"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -269,7 +293,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#6e6a7cd9",
           "variables": {
-            "caTemplate": "c2e72fc0-8dac-4316-9e0e-265483c94a88",
+            "caTemplate": {
+              "label": "RF-CA08 - Admins - Session Controls",
+              "value": "c2e72fc0-8dac-4316-9e0e-265483c94a88"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -282,7 +309,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#7de25ec8",
           "variables": {
-            "caTemplate": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36",
+            "caTemplate": {
+              "label": "RF-CA11 - All Users - Block Authentication Transfer",
+              "value": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -295,7 +325,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#7df4d9ec",
           "variables": {
-            "caTemplate": "39062d9e-9c21-461f-bab2-65d97c152287",
+            "caTemplate": {
+              "label": "RF-CA19 - All Users - Require MFA to Register or Join Devices",
+              "value": "39062d9e-9c21-461f-bab2-65d97c152287"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -308,7 +341,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#7f55b676",
           "variables": {
-            "caTemplate": "7c001014-c117-44b4-b0ac-509cb642a52f",
+            "caTemplate": {
+              "label": "RF-CA07 - All Users - Session Controls",
+              "value": "7c001014-c117-44b4-b0ac-509cb642a52f"
+            },
             "state": "donotchange",
             "disableSD": false,
             "createGroups": false
@@ -321,7 +357,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#800c352c",
           "variables": {
-            "caTemplate": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1",
+            "caTemplate": {
+              "label": "RF-CA15 - All Users - Require MFA or TAP to Register MFA",
+              "value": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -334,7 +373,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#8d63c123",
           "variables": {
-            "caTemplate": "286024bb-4869-44f6-b1c5-a02e068ae28c",
+            "caTemplate": {
+              "label": "RF-CA18 - Block sign in outside Safe Locations",
+              "value": "286024bb-4869-44f6-b1c5-a02e068ae28c"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -347,7 +389,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#93fd5394",
           "variables": {
-            "caTemplate": "14df7729-bb8b-4248-9134-8c03f70f9e04",
+            "caTemplate": {
+              "label": "RF-CA04 - Admins - Require Phish Resistant MFA",
+              "value": "14df7729-bb8b-4248-9134-8c03f70f9e04"
+            },
             "state": "donotchange",
             "disableSD": false,
             "createGroups": false
@@ -360,7 +405,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#a41d37b1",
           "variables": {
-            "caTemplate": "2941ce97-615f-486a-be43-4ebc998282b2",
+            "caTemplate": {
+              "label": "RF-CA16 - All Users - Mobile Require App Protection",
+              "value": "2941ce97-615f-486a-be43-4ebc998282b2"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -373,7 +421,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#af4d9344",
           "variables": {
-            "caTemplate": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0",
+            "caTemplate": {
+              "label": "RF-CA03 - Breakglass - Require Phish Resistant MFA",
+              "value": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0"
+            },
             "state": "donotchange",
             "disableSD": false,
             "createGroups": false
@@ -386,7 +437,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#ca354fdf",
           "variables": {
-            "caTemplate": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
+            "caTemplate": {
+              "label": "RF-CA02 - All Users - Require MFA",
+              "value": "8453854e-f765-4bf9-b05f-5ca317e0d2ed"
+            },
             "state": "donotchange",
             "disableSD": false,
             "createGroups": false
@@ -399,7 +453,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#d629e7ca",
           "variables": {
-            "caTemplate": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0",
+            "caTemplate": {
+              "label": "RF-CA12 - All Users - Unmanaged Browser No Downloads",
+              "value": "ebd960c3-0a61-45a1-8eb0-a0b1416385e0"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -412,7 +469,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#dbb071b5",
           "variables": {
-            "caTemplate": "a6963551-2008-4528-afab-59a38ec35327",
+            "caTemplate": {
+              "label": "RF-CA17 - Guests - Require MFA",
+              "value": "a6963551-2008-4528-afab-59a38ec35327"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -425,7 +485,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#e28ec47b",
           "variables": {
-            "caTemplate": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b",
+            "caTemplate": {
+              "label": "RF-CA10 - All Users - Block Device Code Flow",
+              "value": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b"
+            },
             "state": "enabledForReportingButNotEnforced",
             "disableSD": false,
             "createGroups": false
@@ -818,7 +881,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#0549c5dc",
           "variables": {
-            "groupTemplate": "3a7eaf16-28db-4ae6-a3e5-bae584b4f87d"
+            "groupTemplate": {
+              "label": "DEV - Exclude",
+              "value": "3a7eaf16-28db-4ae6-a3e5-bae584b4f87d"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -828,7 +894,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#1a89e558",
           "variables": {
-            "groupTemplate": "66aa36b1-4837-4022-afd1-5c1384c6a16f"
+            "groupTemplate": {
+              "label": "CA - Contractors",
+              "value": "66aa36b1-4837-4022-afd1-5c1384c6a16f"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -838,7 +907,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#1ab350e5",
           "variables": {
-            "groupTemplate": "56fba82e-942e-4f1a-8679-ae42388a4dac"
+            "groupTemplate": {
+              "label": "DEV - Pilot",
+              "value": "56fba82e-942e-4f1a-8679-ae42388a4dac"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -848,7 +920,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#29de8e92",
           "variables": {
-            "groupTemplate": "241d90c8-fbb0-4c22-9545-7018d87d62f5"
+            "groupTemplate": {
+              "label": "USR - Pilot",
+              "value": "241d90c8-fbb0-4c22-9545-7018d87d62f5"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -858,7 +933,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#3d0197d5",
           "variables": {
-            "groupTemplate": "b9413b7f-2240-45c9-838a-dfa61bd15f23"
+            "groupTemplate": {
+              "label": "DEV - macOS",
+              "value": "b9413b7f-2240-45c9-838a-dfa61bd15f23"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -868,7 +946,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#509fe0e2",
           "variables": {
-            "groupTemplate": "83f424f5-9714-4ef4-af85-5b3f67c712e8"
+            "groupTemplate": {
+              "label": "DEV - Windows",
+              "value": "83f424f5-9714-4ef4-af85-5b3f67c712e8"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -878,7 +959,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#5498841f",
           "variables": {
-            "groupTemplate": "f270edf9-f575-4245-8b83-f882964a2a82"
+            "groupTemplate": {
+              "label": "CA - Working Abroad",
+              "value": "f270edf9-f575-4245-8b83-f882964a2a82"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -888,7 +972,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#55348fe9",
           "variables": {
-            "groupTemplate": "bb95f70d-5edf-4adb-b208-d76dbb946a32"
+            "groupTemplate": {
+              "label": "CA - Pilot Users",
+              "value": "bb95f70d-5edf-4adb-b208-d76dbb946a32"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -898,7 +985,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#57c4975b",
           "variables": {
-            "groupTemplate": "af75e595-e4c7-44a7-8896-b93c1b17228d"
+            "groupTemplate": {
+              "label": "USR - All",
+              "value": "af75e595-e4c7-44a7-8896-b93c1b17228d"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -908,7 +998,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#9b577777",
           "variables": {
-            "groupTemplate": "22c46d57-c6cf-4aed-b5eb-cb72d891e530"
+            "groupTemplate": {
+              "label": "CA - Guests",
+              "value": "22c46d57-c6cf-4aed-b5eb-cb72d891e530"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -918,7 +1011,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#a93f2968",
           "variables": {
-            "groupTemplate": "cd9556e2-09d6-40da-a38c-aa37c253def4"
+            "groupTemplate": {
+              "label": "CA - JIT Admins",
+              "value": "cd9556e2-09d6-40da-a38c-aa37c253def4"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -928,7 +1024,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#aa057312",
           "variables": {
-            "groupTemplate": "9f58a179-bfa4-4b92-93c5-4fd6087e44c1"
+            "groupTemplate": {
+              "label": "DEV - Windows 11",
+              "value": "9f58a179-bfa4-4b92-93c5-4fd6087e44c1"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -938,7 +1037,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#aa41ebec",
           "variables": {
-            "groupTemplate": "0404318c-3135-499c-92ea-75185533f9e6"
+            "groupTemplate": {
+              "label": "CA - Temp Admins",
+              "value": "0404318c-3135-499c-92ea-75185533f9e6"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -948,7 +1050,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#bbc9ff4c",
           "variables": {
-            "groupTemplate": "48f78bfe-b70d-4203-a2d9-e15a7853cdfa"
+            "groupTemplate": {
+              "label": "USR - Intune Enrolment",
+              "value": "48f78bfe-b70d-4203-a2d9-e15a7853cdfa"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -958,7 +1063,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#d28bd7b9",
           "variables": {
-            "groupTemplate": "d2c3d049-867b-41f5-b1d7-2064ba357433"
+            "groupTemplate": {
+              "label": "USR - Exclude",
+              "value": "d2c3d049-867b-41f5-b1d7-2064ba357433"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -968,7 +1076,10 @@
           "standard": "GroupTemplate",
           "instance": "GroupTemplate#fb71f17a",
           "variables": {
-            "groupTemplate": "c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7"
+            "groupTemplate": {
+              "label": "CA - Breakglass Admins",
+              "value": "c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7"
+            }
           },
           "remediateEnabled": true,
           "alertEnabled": false,
@@ -1524,7 +1635,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#4ae9175e",
           "variables": {
-            "caTemplate": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1",
+            "caTemplate": {
+              "label": "RF-CA15 - All Users - Require MFA or TAP to Register MFA",
+              "value": "3dc37f68-8595-4c7f-96f3-d9d18cc5dbf1"
+            },
             "state": "enabled",
             "disableSD": false,
             "createGroups": false
@@ -1537,7 +1651,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#5982cec5",
           "variables": {
-            "caTemplate": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef",
+            "caTemplate": {
+              "label": "RF-CA01 - All Users - Block Legacy Auth",
+              "value": "cfa80e9a-a9fc-42c5-9faa-f1454bf107ef"
+            },
             "state": "enabled",
             "disableSD": true,
             "createGroups": false
@@ -1550,7 +1667,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#7de25ec8",
           "variables": {
-            "caTemplate": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36",
+            "caTemplate": {
+              "label": "RF-CA11 - All Users - Block Authentication Transfer",
+              "value": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36"
+            },
             "state": "enabled",
             "disableSD": false,
             "createGroups": false
@@ -1563,7 +1683,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#7df4d9ec",
           "variables": {
-            "caTemplate": "39062d9e-9c21-461f-bab2-65d97c152287",
+            "caTemplate": {
+              "label": "RF-CA19 - All Users - Require MFA to Register or Join Devices",
+              "value": "39062d9e-9c21-461f-bab2-65d97c152287"
+            },
             "state": "enabled",
             "disableSD": false,
             "createGroups": false
@@ -1576,7 +1699,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#8d63c123",
           "variables": {
-            "caTemplate": "286024bb-4869-44f6-b1c5-a02e068ae28c",
+            "caTemplate": {
+              "label": "RF-CA18 - Block sign in outside Safe Locations",
+              "value": "286024bb-4869-44f6-b1c5-a02e068ae28c"
+            },
             "state": "enabled",
             "disableSD": false,
             "createGroups": false
@@ -1589,7 +1715,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#93fd5394",
           "variables": {
-            "caTemplate": "14df7729-bb8b-4248-9134-8c03f70f9e04",
+            "caTemplate": {
+              "label": "RF-CA04 - Admins - Require Phish Resistant MFA",
+              "value": "14df7729-bb8b-4248-9134-8c03f70f9e04"
+            },
             "state": "enabled",
             "disableSD": true,
             "createGroups": false
@@ -1602,7 +1731,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#af4d9344",
           "variables": {
-            "caTemplate": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0",
+            "caTemplate": {
+              "label": "RF-CA03 - Breakglass - Require Phish Resistant MFA",
+              "value": "8da515f7-d6ef-42f5-a1d9-6cfe3b4f51b0"
+            },
             "state": "enabled",
             "disableSD": true,
             "createGroups": false
@@ -1615,7 +1747,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#c41373d3",
           "variables": {
-            "caTemplate": "736d453a-717d-45a3-8da1-f943544a91fb",
+            "caTemplate": {
+              "label": "RF-CA18A - Working Abroad",
+              "value": "736d453a-717d-45a3-8da1-f943544a91fb"
+            },
             "state": "enabled",
             "disableSD": false,
             "createGroups": false
@@ -1628,7 +1763,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#ca354fdf",
           "variables": {
-            "caTemplate": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
+            "caTemplate": {
+              "label": "RF-CA02 - All Users - Require MFA",
+              "value": "8453854e-f765-4bf9-b05f-5ca317e0d2ed"
+            },
             "state": "enabled",
             "disableSD": true,
             "createGroups": false
@@ -1641,7 +1779,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#dbb071b5",
           "variables": {
-            "caTemplate": "a6963551-2008-4528-afab-59a38ec35327",
+            "caTemplate": {
+              "label": "RF-CA17 - Guests - Require MFA",
+              "value": "a6963551-2008-4528-afab-59a38ec35327"
+            },
             "state": "enabled",
             "disableSD": false,
             "createGroups": false
@@ -1654,7 +1795,10 @@
           "standard": "ConditionalAccessTemplate",
           "instance": "ConditionalAccessTemplate#e28ec47b",
           "variables": {
-            "caTemplate": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b",
+            "caTemplate": {
+              "label": "RF-CA10 - All Users - Block Device Code Flow",
+              "value": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b"
+            },
             "state": "enabled",
             "disableSD": false,
             "createGroups": false
