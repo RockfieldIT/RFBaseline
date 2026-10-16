@@ -1,0 +1,8 @@
+{
+  "PartitionKey": "IntuneTemplate",
+  "RowKey": "10dc7fba-545e-43e0-be14-38aa5b61174e",
+  "GUID": "10dc7fba-545e-43e0-be14-38aa5b61174e",
+  "JSON": "{\"Displayname\":\"Win - OIB - TP - Health Monitoring - D - Endpoint Analytics - v3.4\",\"Description\":\"OIBID:8DB1261D-2474-43C4-A753-61124D7875B6\",\"RAWJson\":\"{\\\"@odata.type\\\":\\\"#microsoft.graph.windowsHealthMonitoringConfiguration\\\",\\\"roleScopeTagIds\\\":[\\\"0\\\"],\\\"deviceManagementApplicabilityRuleOsEdition\\\":null,\\\"deviceManagementApplicabilityRuleOsVersion\\\":null,\\\"deviceManagementApplicabilityRuleDeviceMode\\\":null,\\\"description\\\":\\\"OIBID:8DB1261D-2474-43C4-A753-61124D7875B6\\\",\\\"displayName\\\":\\\"Win - OIB - TP - Health Monitoring - D - Endpoint Analytics - v3.4\\\",\\\"version\\\":1,\\\"allowDeviceHealthMonitoring\\\":\\\"enabled\\\",\\\"configDeviceHealthMonitoringScope\\\":\\\"bootPerformance\\\",\\\"configDeviceHealthMonitoringCustomScope\\\":null}\",\"Type\":\"Device\",\"GUID\":\"10dc7fba-545e-43e0-be14-38aa5b61174e\"}",
+  "SHA": "870eeff229973c946d22462315800791e4303b51",
+  "Source": "SkipToTheEndpoint/OpenIntuneBaseline"
+}
