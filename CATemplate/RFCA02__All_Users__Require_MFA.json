@@ -3,7 +3,7 @@
   "RowKey": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
   "GUID": "8453854e-f765-4bf9-b05f-5ca317e0d2ed",
   "JSON": "{\"displayName\":\"RF-CA02 - All Users - Require MFA\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[\"All\"],\"excludeUsers\":[\"GuestsOrExternalUsers\"],\"excludeGroups\":[\"CA - Breakglass Admins\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"]},\"grantControls\":{\"operator\":\"OR\",\"authenticationStrength\":{\"id\":\"00000000-0000-0000-0000-000000000002\"}},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
-  "SHA": "78a5d8cee620085bd948b18959f8dcc0bfacb617",
+  "SHA": "663212bbf6f21a84cb1544e516508cff2909ed45",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "CATemplate/RFCA02__All_Users__Require_MFA.json"
 }
