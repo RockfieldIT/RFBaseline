@@ -3,7 +3,7 @@
   "RowKey": "2941ce97-615f-486a-be43-4ebc998282b2",
   "GUID": "2941ce97-615f-486a-be43-4ebc998282b2",
   "JSON": "{\"displayName\":\"RF-CA16 - All Users - Mobile Require App Protection\",\"state\":\"enabledForReportingButNotEnforced\",\"conditions\":{\"users\":{\"includeUsers\":[\"All\"],\"excludeUsers\":[\"GuestsOrExternalUsers\"],\"excludeGroups\":[\"CA - Breakglass Admins\",\"CA - Temp Admins\",\"CA - JIT Admins\",\"USR - Exclude\"],\"excludeGuestsOrExternalUsers\":{\"guestOrExternalUserTypes\":\"serviceProvider\",\"externalTenants\":{\"members\":[\"befa181c-0462-4610-8e82-94a63ceb7ad9\"],\"@odata.type\":\"#microsoft.graph.conditionalAccessEnumeratedExternalTenants\",\"membershipKind\":\"enumerated\"}}},\"applications\":{\"includeApplications\":[\"All\"]},\"clientAppTypes\":[\"all\"],\"platforms\":{\"includePlatforms\":[\"android\",\"iOS\"]}},\"grantControls\":{\"operator\":\"OR\",\"builtInControls\":[\"compliantApplication\"]},\"sessionControls\":{\"disableResilienceDefaults\":false},\"tenantFilter\":[{\"label\":\"Template Tenant\",\"value\":\"Template Tenant\"}]}",
-  "SHA": "2f3638db73c09a0a6c6545a3368c3115bfe63f4a",
+  "SHA": "6de2488d986d851040095c43a3d8b63c33931069",
   "Source": "RockfieldIT/RFBaseline",
-  "SourcePath": "CATemplate/RFCA16__BYOD_Users__Require_App_Protection.json"
+  "SourcePath": "CATemplate/RFCA16__All_Users__Mobile_Require_App_Protection.json"
 }
