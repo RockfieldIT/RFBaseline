@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7",
   "JSON": "{\"displayName\":\"CA - Breakglass Admins\",\"description\":null,\"groupType\":\"generic\",\"membershipRules\":null,\"allowExternal\":null,\"username\":null,\"licenses\":[],\"aliases\":null,\"hideFromGAL\":null,\"GUID\":\"c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7\"}",
-  "SHA": "79f6e312a02b369e0c6ae2693be1f3d90b4752bd",
+  "SHA": "5c055a7b4fbebd3ade6d87d985fd0a7db2515bb3",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/CA__Breakglass_Admins.json"
 }
