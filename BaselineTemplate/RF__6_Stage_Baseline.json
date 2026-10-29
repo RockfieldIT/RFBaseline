@@ -985,6 +985,23 @@
           "alertOnRemediate": false
         },
         {
+          "standard": "IntuneTemplate",
+          "instance": "IntuneTemplate#eaf282bd",
+          "variables": {
+            "intuneTemplate": "97036f90-9291-4016-a66a-8a45c9e121fe",
+            "assignTo": "AllDevices",
+            "customGroup": "",
+            "excludeGroup": "",
+            "assignmentFilter": "",
+            "assignmentFilterType": "include",
+            "verifyAssignments": false,
+            "levenshteinDistance": 0
+          },
+          "remediateEnabled": true,
+          "alertEnabled": false,
+          "alertOnRemediate": false
+        },
+        {
           "standard": "laps",
           "instance": "laps",
           "variables": {},
@@ -2291,6 +2308,12 @@
       "guid": "c4c54112-c0e4-42d5-a3bd-4e85aa6b44d7",
       "displayName": "CA - Breakglass Admins",
       "path": "GroupTemplate/CA__Breakglass_Admins.json"
+    },
+    {
+      "partition": "IntuneTemplate",
+      "guid": "97036f90-9291-4016-a66a-8a45c9e121fe",
+      "displayName": "TRMM - Exclusion Template - AV Exclusion Policy",
+      "path": "IntuneTemplate/TRMM__Exclusion_Template__AV_Exclusion_Policy.json"
     },
     {
       "partition": "IntuneTemplate",
