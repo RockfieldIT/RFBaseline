@@ -2,7 +2,7 @@
   "PartitionKey": "GroupTemplate",
   "RowKey": "b9413b7f-2240-45c9-838a-dfa61bd15f23",
   "JSON": "{\"displayName\":\"DEV - macOS\",\"description\":\"Dynamic device group for macOS devices\",\"groupType\":\"dynamic\",\"membershipRules\":\"(device.deviceOSType -eq \\\"MacMDM\\\") or (device.deviceOSType -eq \\\"MacOS\\\")\",\"allowExternal\":null,\"username\":null,\"licenses\":null,\"GUID\":\"b9413b7f-2240-45c9-838a-dfa61bd15f23\"}",
-  "SHA": "acd39add19695efb2113d8e5543e159bdcc5715f",
+  "SHA": "77eb1b8f931514529e3c83965bcfedefb10bf98b",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "GroupTemplate/DEV__macOS.json"
 }
