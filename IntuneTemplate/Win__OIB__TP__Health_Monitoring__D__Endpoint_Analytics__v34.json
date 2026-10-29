@@ -3,7 +3,7 @@
   "RowKey": "10dc7fba-545e-43e0-be14-38aa5b61174e",
   "GUID": "10dc7fba-545e-43e0-be14-38aa5b61174e",
   "JSON": "{\"Displayname\":\"Win - OIB - TP - Health Monitoring - D - Endpoint Analytics - v3.4\",\"Description\":\"OIBID:8DB1261D-2474-43C4-A753-61124D7875B6\",\"RAWJson\":\"{\\\"@odata.type\\\":\\\"#microsoft.graph.windowsHealthMonitoringConfiguration\\\",\\\"roleScopeTagIds\\\":[\\\"0\\\"],\\\"deviceManagementApplicabilityRuleOsEdition\\\":null,\\\"deviceManagementApplicabilityRuleOsVersion\\\":null,\\\"deviceManagementApplicabilityRuleDeviceMode\\\":null,\\\"description\\\":\\\"OIBID:8DB1261D-2474-43C4-A753-61124D7875B6\\\",\\\"displayName\\\":\\\"Win - OIB - TP - Health Monitoring - D - Endpoint Analytics - v3.4\\\",\\\"version\\\":1,\\\"allowDeviceHealthMonitoring\\\":\\\"enabled\\\",\\\"configDeviceHealthMonitoringScope\\\":\\\"bootPerformance\\\",\\\"configDeviceHealthMonitoringCustomScope\\\":null}\",\"Type\":\"Device\",\"GUID\":\"10dc7fba-545e-43e0-be14-38aa5b61174e\"}",
-  "SHA": "ad62de130b7c6c0d79fb69f5dc060131d79f9004",
+  "SHA": "349f90440a63a098f6d24f2f86ddaa5d6cb1821e",
   "Source": "RockfieldIT/RFBaseline",
   "SourcePath": "IntuneTemplate/Win__OIB__TP__Health_Monitoring__D__Endpoint_Analytics__v34.json"
 }
