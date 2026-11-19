@@ -18,6 +18,7 @@
       "name": "S1 Observe",
       "logic": "and",
       "conditions": [],
+      "conditionGroups": [],
       "standards": [
         {
           "standard": "AddDKIM",
@@ -283,7 +284,7 @@
           "instance": "ConditionalAccessTemplate#7de25ec8",
           "variables": {
             "caTemplate": "44d0748d-8f3b-4175-b570-c5bf9a4a1c36",
-            "state": "enabledForReportingButNotEnforced",
+            "state": "donotchange",
             "disableSD": false,
             "createGroups": false
           },
@@ -426,7 +427,7 @@
           "instance": "ConditionalAccessTemplate#e28ec47b",
           "variables": {
             "caTemplate": "d8ddae27-84e7-42ea-89d0-ff0bc0fd016b",
-            "state": "enabledForReportingButNotEnforced",
+            "state": "donotchange",
             "disableSD": false,
             "createGroups": false
           },
@@ -1255,6 +1256,7 @@
           "groupName": "RF Baseline S1"
         }
       ],
+      "conditionGroups": [],
       "standards": [
         {
           "standard": "AntiPhishPolicy",
@@ -1841,6 +1843,7 @@
           "groupName": "RF Baseline S2"
         }
       ],
+      "conditionGroups": [],
       "standards": [
         {
           "standard": "AuthenticationMethods",
